@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-11-15T15:16:48.339Z",
+  "authentication": "none; HTTP requests without cookies or Authorization",
+  "commit": "2097b1d20981b268cad8cc53dd5ea06da809a0cc",
+  "passed": true,
+  "results": [
+    {
+      "name": "Public repository",
+      "url": "https://api.github.com/repos/Zuoyo-Tracy/naiguo-winter",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 5470,
+      "sha256": "2586e154068146bb0efb6b5f16f7a322226ce240456066814943e927acdd7d20",
+      "passed": true
+    },
+    {
+      "name": "Browse source",
+      "url": "https://github.com/Zuoyo-Tracy/naiguo-winter/tree/main/source",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 221210,
+      "sha256": "c9fca1cdf0c4be0e0526bd487ff62672d63d646ea96097d9422748e1159e0e73",
+      "passed": true
+    },
+    {
+      "name": "Original source file",
+      "url": "https://raw.githubusercontent.com/Zuoyo-Tracy/naiguo-winter/main/source/src/main.js",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 39020,
+      "sha256": "a6a66c4e16200071473b02ff14efc93dbae68ce4c07bf1843b71743eed38006e",
+      "passed": true
+    },
+    {
+      "name": "Game entry",
+      "url": "https://zuoyo-tracy.github.io/naiguo-winter/?scene=grand-palace&trial=1",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 3447,
+      "sha256": "38570b0fc2d5e962609cf693b8e9dbb83f3c03ffa5688dd10f54252a7216693f",
+      "passed": true
+    },
+    {
+      "name": "PDF report",
+      "url": "https://zuoyo-tracy.github.io/naiguo-winter/review/Winter-in-Milktopia-Project-Report.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 5076816,
+      "sha256": "552ea3bc6a36d6679dd9a6751542bf2ee648ff9b3796262707219a79b535b0d4",
+      "passed": true
+    },
+    {
+      "name": "Source ZIP",
+      "url": "https://zuoyo-tracy.github.io/naiguo-winter/review/Winter-in-Milktopia-Source.zip",
+      "status": 200,
+      "contentType": "application/x-zip-compressed",
+      "bytes": 4943601,
+      "sha256": "1509f572e6b9266e964c3031bc7fcf0794cdc4d0a7df3daccedf3905ce45711a",
+      "passed": true
+    },
+    {
+      "name": "Screenshot evidence",
+      "url": "https://zuoyo-tracy.github.io/naiguo-winter/review/evidence.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 7855,
+      "sha256": "f3d844d110d1c94ed212ede25b522efbf63ab031a35c2b4cf51a3a4a828b33ba",
+      "passed": true
+    }
+  ]
+}
