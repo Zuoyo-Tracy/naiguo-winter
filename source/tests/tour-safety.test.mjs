@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {newRace,stepRace,obstacles} from '../src/rules.js';
+import {approachSpeedFactor} from '../src/challenges.js';
+import {globe} from '../src/snow-globe.js';
+test('boost-zone transitions ease in and out independently of frame subdivision',()=>{const one=approachSpeedFactor(1,8,1/60);assert.ok(one>1&&one<1.7);let split=1;for(let i=0;i<4;i++)split=approachSpeedFactor(split,8,1/240);assert.ok(Math.abs(one-split)<1e-9);assert.ok(approachSpeedFactor(8,1,1/60)>7);});
+test('manual roaming blocks a tree without damage and still allows reverse escape',()=>{const o=obstacles[0],s=newRace();Object.assign(s,{status:'running',mode:'explore',x:o.x-5,z:o.z,yaw:Math.PI/2,speed:12,groundY:o.y});for(let i=0;i<180;i++)stepRace(s,{accelerate:true,safeExplore:true},1/120,0);assert.equal(s.hits,0);assert.equal(s.status,'running');assert.ok(s.x<o.x-1);const before=s.x;for(let i=0;i<180;i++)stepRace(s,{reverse:true,safeExplore:true},1/120,0);assert.ok(s.x<before-2);});
+test('manual roaming stops at a road edge while racing retains its fall failure',()=>{for(const safeExplore of [true,false]){const s=newRace();Object.assign(s,{status:'running',x:-260,z:10.9,yaw:0,speed:20});for(let i=0;i<60;i++)stepRace(s,{safeExplore},1/60,1);assert.equal(s.status,safeExplore?'running':'lost');if(safeExplore)assert.ok(s.z<=13);}});
+test('passing the original ghost-house location stays on the race route',()=>{const s=newRace();Object.assign(s,{status:'running',x:225,z:450,groundY:12});stepRace(s,{},.01,0);assert.equal(!!s.snow,false);assert.ok(Math.hypot(globe.x-s.x,globe.z-s.z)>globe.radius+3);});

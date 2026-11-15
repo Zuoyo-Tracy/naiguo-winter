@@ -1,0 +1,17 @@
+import {TRACK_LENGTH} from '../src/track.js';
+import test from 'node:test';import assert from 'node:assert/strict';
+import {newFlight,stepFlight,skyTarget,readSky,SKY_LAYOUT,SKY_LENGTH,skyLegs,skyChapters,skyChapterLengths,skyProgress,restoreFlight,flightCheckpoint} from '../src/sky-journey.js';
+import {canUseSkin} from '../src/skins.js';
+test('angel is awarded only after all three stations, including restored saves',()=>{assert.equal(canUseSkin('angel',1),false);assert.equal(canUseSkin('angel',2),true);assert.deepEqual(readSky({getItem:()=>'{bad'}),{layout:SKY_LAYOUT,completed:0,best:[]});});
+test('assistance can reach and complete all five missions without teleporting',()=>{
+ for(let chapter=0;chapter<5;chapter++){const s=newFlight(chapter);for(let i=0;i<30000&&!s.done;i++){const old={...s};stepFlight(s,{interact:true},1/60);assert.ok(Math.hypot(s.x-old.x,s.y-old.y,s.z-old.z)<.6);}assert.ok(s.done,'chapter '+chapter);}
+});
+test('manual altitude, braking, left/right and frame rate are consistent',()=>{
+ const run=hz=>{const s=newFlight();s.assisted=false;for(let i=0;i<hz*3;i++)stepFlight(s,{forward:true,up:true,left:true},1/hz);return s;};const a=run(30),b=run(120);assert.ok(a.y>230);assert.ok(a.yaw>0);assert.ok(Math.hypot(a.x-b.x,a.z-b.z)<1);stepFlight(a,{brake:true},.1);assert.equal(a.assisted,false);
+});
+test('continuous collision protects bodies, and energy cannot be negative',()=>{const s=newFlight();s.assisted=false;s.speed=28;const solid={x:s.x,y:s.y,z:s.z+4,r:2};for(let i=0;i<200;i++)stepFlight(s,{forward:true,boost:true},.1,[solid]);assert.ok(s.hits>0);assert.ok(s.energy>=0);assert.ok(Math.hypot(s.x-solid.x,s.y-solid.y,s.z-solid.z)>=3.19);});
+test('chapter records and mid-route checkpoint survive storage reload',()=>{const saved={layout:SKY_LAYOUT,completed:2,best:[45,72],checkpoint:{chapter:2,node:1,nav:1,time:18,hits:0,distance:305,rings:4}};assert.deepEqual(readSky({getItem:()=>JSON.stringify(saved)}),saved);const bad=readSky({getItem:()=>JSON.stringify({completed:99,checkpoint:{chapter:-1,node:9}})});assert.equal(bad.completed,5);assert.equal(bad.checkpoint,undefined);});
+
+test('sky route matches ground length physically and all chapter starts connect',()=>{assert.ok(Math.abs(SKY_LENGTH-TRACK_LENGTH)<.001);assert.ok(Math.abs(skyChapterLengths.reduce((a,b)=>a+b,0)-SKY_LENGTH)<.001);assert.equal(skyLegs.flat().reduce((n,l)=>n+l.gates.length,0),38);for(let c=1;c<5;c++){const s=newFlight(c),p=skyChapters[c-1].points.at(-1);assert.deepEqual([s.x,s.y,s.z],p);}});
+test('wind rings recharge without replacing deliveries; progress and checkpoints resume safely',()=>{const s=newFlight();s.energy=.2;const t=skyTarget(s);assert.equal(t.transit,true);Object.assign(s,{x:t.x,y:t.y,z:t.z});stepFlight(s,{},.01);assert.equal(s.nav,1);assert.equal(s.node,0);assert.equal(s.rings,1);assert.ok(s.energy>.37);const cp=flightCheckpoint(s),r=restoreFlight(cp);assert.equal(r.nav,1);assert.equal(r.rings,1);assert.ok(skyProgress(r)>0);assert.equal(skyTarget(r).transit,false);});
+test('legacy unlocks survive while old short-route times do not compete with the full route',()=>{const s=readSky({getItem:()=>JSON.stringify({completed:4,best:[12,13],checkpoint:{chapter:4,node:2,time:8,hits:1}})});assert.equal(s.completed,4);assert.deepEqual(s.best,[]);assert.equal(s.checkpoint.node,2);assert.equal(s.checkpoint.nav,0);assert.equal(s.checkpoint.time,0);assert.equal(s.layout,SKY_LAYOUT);});

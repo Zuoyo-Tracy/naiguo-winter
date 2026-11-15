@@ -1,0 +1,1982 @@
+{
+  "capturedFrom": "Fully loaded game, distant detail, all preloaded ride and story assets; all UI portraits included",
+  "totalBytes": 887168335,
+  "files": [
+    {
+      "url": "/assets/ghost-stone-surface.png",
+      "bytes": 1289705
+    },
+    {
+      "url": "/assets/landscape-layout.json",
+      "bytes": 7758
+    },
+    {
+      "url": "/assets/transit/arcade-repaired-0530c7a298a3-full-bb5d7ec5154c5f.glb.gz",
+      "bytes": 133799
+    },
+    {
+      "url": "/assets/transit/arcade-repaired-0530c7a298a3-mobile-bb5d7ec5154c5f.glb.gz",
+      "bytes": 133799
+    },
+    {
+      "url": "/assets/transit/arcade-repaired-full-93574756bef616.glb.gz",
+      "bytes": 770788
+    },
+    {
+      "url": "/assets/transit/arcade-repaired-mobile-9793b54f07e32b.glb.gz",
+      "bytes": 787045
+    },
+    {
+      "url": "/assets/transit/balance-cradle-full-99caf92128e273.glb.gz",
+      "bytes": 1614339
+    },
+    {
+      "url": "/assets/transit/balance-cradle-mobile-afe7187a4fb4ef.glb.gz",
+      "bytes": 528618
+    },
+    {
+      "url": "/assets/transit/balloon-basket-full-e035e801b22318.glb.gz",
+      "bytes": 2241174
+    },
+    {
+      "url": "/assets/transit/balloon-basket-mobile-98767fbf1087b8.glb.gz",
+      "bytes": 754858
+    },
+    {
+      "url": "/assets/transit/balloon-closed-full-2d780ffe767e43.glb.gz",
+      "bytes": 1078875
+    },
+    {
+      "url": "/assets/transit/balloon-closed-mobile-977371c752dbc6.glb.gz",
+      "bytes": 1190922
+    },
+    {
+      "url": "/assets/transit/balloon-envelope-full-ea4b2ca3b1e099.glb.gz",
+      "bytes": 1708296
+    },
+    {
+      "url": "/assets/transit/balloon-envelope-mobile-7c038f7fe610ad.glb.gz",
+      "bytes": 547814
+    },
+    {
+      "url": "/assets/transit/bandstand-50a0ec818d4d-full-fb1befa286a277.glb.gz",
+      "bytes": 413143
+    },
+    {
+      "url": "/assets/transit/bandstand-50a0ec818d4d-mobile-fb1befa286a277.glb.gz",
+      "bytes": 413143
+    },
+    {
+      "url": "/assets/transit/bandstand-full-17efff2bf670db.glb.gz",
+      "bytes": 1549536
+    },
+    {
+      "url": "/assets/transit/bandstand-mobile-0acf9fec94a20a.glb.gz",
+      "bytes": 1843446
+    },
+    {
+      "url": "/assets/transit/bell-frame-full-1bebe5f3037268.glb.gz",
+      "bytes": 1709233
+    },
+    {
+      "url": "/assets/transit/bell-frame-mobile-2db42c200580ae.glb.gz",
+      "bytes": 578103
+    },
+    {
+      "url": "/assets/transit/bell-full-9e4e0b14b4232d.glb.gz",
+      "bytes": 1224108
+    },
+    {
+      "url": "/assets/transit/bell-mobile-9fac10302db6fa.glb.gz",
+      "bytes": 1414999
+    },
+    {
+      "url": "/assets/transit/bench-bb55875a7d75-full-e0505e4c2d1019.glb.gz",
+      "bytes": 155268
+    },
+    {
+      "url": "/assets/transit/bench-bb55875a7d75-mobile-e0505e4c2d1019.glb.gz",
+      "bytes": 155268
+    },
+    {
+      "url": "/assets/transit/birdhouse-full-cf7e2caaee4dd2.glb.gz",
+      "bytes": 1149991
+    },
+    {
+      "url": "/assets/transit/birdhouse-mobile-af9c5892ffa713.glb.gz",
+      "bytes": 635506
+    },
+    {
+      "url": "/assets/transit/bowling-ball-full-b6ef07eb8e25d2.glb.gz",
+      "bytes": 620267
+    },
+    {
+      "url": "/assets/transit/bowling-ball-mobile-811047e70f5890.glb.gz",
+      "bytes": 842543
+    },
+    {
+      "url": "/assets/transit/bowling-lane-full-be4a62977818db.glb.gz",
+      "bytes": 950149
+    },
+    {
+      "url": "/assets/transit/bowling-lane-mobile-886c8b0615e56d.glb.gz",
+      "bytes": 1123784
+    },
+    {
+      "url": "/assets/transit/bowling-pin-full-014848092e6c33.glb.gz",
+      "bytes": 435749
+    },
+    {
+      "url": "/assets/transit/bowling-pin-mobile-5bdbb97c0b9426.glb.gz",
+      "bytes": 654194
+    },
+    {
+      "url": "/assets/transit/brass-compass-full-354706c92dbbe6.glb.gz",
+      "bytes": 1259769
+    },
+    {
+      "url": "/assets/transit/brass-compass-mobile-fd33bcc2f37f6f.glb.gz",
+      "bytes": 747130
+    },
+    {
+      "url": "/assets/transit/bunting-full-8ba6d15c9d5004.glb.gz",
+      "bytes": 1740726
+    },
+    {
+      "url": "/assets/transit/bunting-mobile-f2f5b632ed45bd.glb.gz",
+      "bytes": 1983973
+    },
+    {
+      "url": "/assets/transit/camera-full-e6562a4f4b7d53.glb.gz",
+      "bytes": 1414005
+    },
+    {
+      "url": "/assets/transit/camera-mobile-9e1bc1fa729746.glb.gz",
+      "bytes": 1598916
+    },
+    {
+      "url": "/assets/transit/candy-6f6c58ee6c5d-full-0b74c612bae3eb.glb.gz",
+      "bytes": 214173
+    },
+    {
+      "url": "/assets/transit/candy-6f6c58ee6c5d-mobile-0b74c612bae3eb.glb.gz",
+      "bytes": 214173
+    },
+    {
+      "url": "/assets/transit/carousel-carriage-e0ed826f4c1a-full-11404ee11dca9c.glb.gz",
+      "bytes": 226064
+    },
+    {
+      "url": "/assets/transit/carousel-carriage-e0ed826f4c1a-mobile-11404ee11dca9c.glb.gz",
+      "bytes": 226064
+    },
+    {
+      "url": "/assets/transit/carousel-deck-a2a9b58e8120-full-051ef328de8d0c.glb.gz",
+      "bytes": 210799
+    },
+    {
+      "url": "/assets/transit/carousel-deck-a2a9b58e8120-mobile-051ef328de8d0c.glb.gz",
+      "bytes": 210799
+    },
+    {
+      "url": "/assets/transit/carousel-horse-98f877e9a1ef-full-aaec85e5a1a30e.glb.gz",
+      "bytes": 215565
+    },
+    {
+      "url": "/assets/transit/carousel-horse-98f877e9a1ef-mobile-aaec85e5a1a30e.glb.gz",
+      "bytes": 215565
+    },
+    {
+      "url": "/assets/transit/carousel-roof-30ac542bf4a0-full-afd725a6432269.glb.gz",
+      "bytes": 471373
+    },
+    {
+      "url": "/assets/transit/carousel-roof-30ac542bf4a0-mobile-afd725a6432269.glb.gz",
+      "bytes": 471373
+    },
+    {
+      "url": "/assets/transit/carousel-swan-96d60ff0ab47-full-1c4c7fbd75de6a.glb.gz",
+      "bytes": 195503
+    },
+    {
+      "url": "/assets/transit/carousel-swan-96d60ff0ab47-mobile-1c4c7fbd75de6a.glb.gz",
+      "bytes": 195503
+    },
+    {
+      "url": "/assets/transit/carriage-interior-shell-full-cce9c77ac65122.glb.gz",
+      "bytes": 48344
+    },
+    {
+      "url": "/assets/transit/carriage-interior-shell-mobile-cce9c77ac65122.glb.gz",
+      "bytes": 48344
+    },
+    {
+      "url": "/assets/transit/carriage-seat-c38bdb2d0bbb20-full-d7bf836e380c96.glb.gz",
+      "bytes": 2514823
+    },
+    {
+      "url": "/assets/transit/carriage-seat-full-65cf7d4c25177f.glb.gz",
+      "bytes": 6363286
+    },
+    {
+      "url": "/assets/transit/carriage-seat-mobile-692a75ab38a589.glb.gz",
+      "bytes": 1320878
+    },
+    {
+      "url": "/assets/transit/castle-passage-d9c7853cd95faf-full-b8b0be966efe29.glb.gz",
+      "bytes": 3000500
+    },
+    {
+      "url": "/assets/transit/castle-passage-full-6a54b83f885340.glb.gz",
+      "bytes": 7048519
+    },
+    {
+      "url": "/assets/transit/castle-passage-mobile-0efea1df3976fd.glb.gz",
+      "bytes": 1885776
+    },
+    {
+      "url": "/assets/transit/cheerer-full-a7f21688b9efaf.glb.gz",
+      "bytes": 1269138
+    },
+    {
+      "url": "/assets/transit/cheerer-mobile-ce569d9c10b676.glb.gz",
+      "bytes": 1193477
+    },
+    {
+      "url": "/assets/transit/chef-full-bb4d0b32540b1e.glb.gz",
+      "bytes": 1417281
+    },
+    {
+      "url": "/assets/transit/chef-mobile-78f573d3a17154.glb.gz",
+      "bytes": 1204172
+    },
+    {
+      "url": "/assets/transit/chessboard-table-full-5b8ee55a70efbe.glb.gz",
+      "bytes": 1640972
+    },
+    {
+      "url": "/assets/transit/chessboard-table-mobile-3675e4abeb801d.glb.gz",
+      "bytes": 619761
+    },
+    {
+      "url": "/assets/transit/chinese-pavilion-a88c294d8c1189-full-4f1215f03612a9.glb.gz",
+      "bytes": 1791214
+    },
+    {
+      "url": "/assets/transit/chinese-pavilion-full-3d9a861f3ae9b0.glb.gz",
+      "bytes": 4816527
+    },
+    {
+      "url": "/assets/transit/chinese-pavilion-mobile-f334899421fb01.glb.gz",
+      "bytes": 832902
+    },
+    {
+      "url": "/assets/transit/clock-8cdcc57e5b61-full-317c6eaaa7af3e.glb.gz",
+      "bytes": 216760
+    },
+    {
+      "url": "/assets/transit/clock-8cdcc57e5b61-mobile-317c6eaaa7af3e.glb.gz",
+      "bytes": 216760
+    },
+    {
+      "url": "/assets/transit/cloud-bridge-c144c148034beb-full-cf68ec4fe964c2.glb.gz",
+      "bytes": 2241023
+    },
+    {
+      "url": "/assets/transit/cloud-bridge-full-2d6b696d5f6677.glb.gz",
+      "bytes": 5593882
+    },
+    {
+      "url": "/assets/transit/cloud-bridge-mobile-179f1c2739b444.glb.gz",
+      "bytes": 1270153
+    },
+    {
+      "url": "/assets/transit/cloud-cup-full-1f45acb7e52a0c.glb.gz",
+      "bytes": 800648
+    },
+    {
+      "url": "/assets/transit/cloud-cup-mobile-47ca7f682a0229.glb.gz",
+      "bytes": 422652
+    },
+    {
+      "url": "/assets/transit/cloud-flower-full-644c076fdfa596.glb.gz",
+      "bytes": 1187373
+    },
+    {
+      "url": "/assets/transit/cloud-flower-mobile-3098d24385497f.glb.gz",
+      "bytes": 675721
+    },
+    {
+      "url": "/assets/transit/cloud-island-full-836e2b5605c094.glb.gz",
+      "bytes": 3428327
+    },
+    {
+      "url": "/assets/transit/cloud-island-mobile-e3145f528efed5.glb.gz",
+      "bytes": 659552
+    },
+    {
+      "url": "/assets/transit/cohesion--garden-83159a677b90-full-10527cfb81c228.glb.gz",
+      "bytes": 272179
+    },
+    {
+      "url": "/assets/transit/cohesion--garden-83159a677b90-mobile-10527cfb81c228.glb.gz",
+      "bytes": 272179
+    },
+    {
+      "url": "/assets/transit/column-920c157f07a9-full-a9738b39cf9872.glb.gz",
+      "bytes": 186131
+    },
+    {
+      "url": "/assets/transit/column-920c157f07a9-mobile-a9738b39cf9872.glb.gz",
+      "bytes": 186131
+    },
+    {
+      "url": "/assets/transit/column-full-c775482c13e50c.glb.gz",
+      "bytes": 862343
+    },
+    {
+      "url": "/assets/transit/column-mobile-eddc71bbad8b54.glb.gz",
+      "bytes": 1102925
+    },
+    {
+      "url": "/assets/transit/cookie-tin-full-1abb59c3b936dd.glb.gz",
+      "bytes": 1596542
+    },
+    {
+      "url": "/assets/transit/cookie-tin-mobile-72603f840d1aa1.glb.gz",
+      "bytes": 1736913
+    },
+    {
+      "url": "/assets/transit/cookie-trio-full-6deb388c67dbf8.glb.gz",
+      "bytes": 1002939
+    },
+    {
+      "url": "/assets/transit/cookie-trio-mobile-aecd5e1dc45b32.glb.gz",
+      "bytes": 1079686
+    },
+    {
+      "url": "/assets/transit/cotton-cloudbank-lod-0d069a9cdb4f18-full-d616e3be3b0e15.glb.gz",
+      "bytes": 1063472
+    },
+    {
+      "url": "/assets/transit/cotton-cloudbank-lod-full-740d0b1e73bf8d.glb.gz",
+      "bytes": 3753931
+    },
+    {
+      "url": "/assets/transit/cotton-cloudbank-lod-mobile-5a4cb945bfe3c8.glb.gz",
+      "bytes": 352096
+    },
+    {
+      "url": "/assets/transit/drop-seat-full-d5f91e1c471a26.glb.gz",
+      "bytes": 949980
+    },
+    {
+      "url": "/assets/transit/drop-seat-mobile-764b3aedd9309f.glb.gz",
+      "bytes": 1132618
+    },
+    {
+      "url": "/assets/transit/drop-tower-full-0d31a2f7003aaf.glb.gz",
+      "bytes": 1043195
+    },
+    {
+      "url": "/assets/transit/drop-tower-mobile-a3eff79d1d8c39.glb.gz",
+      "bytes": 1279200
+    },
+    {
+      "url": "/assets/transit/duck-full-b9b5b1fa498e29.glb.gz",
+      "bytes": 370637
+    },
+    {
+      "url": "/assets/transit/duck-mobile-92cc253b4a0bf5.glb.gz",
+      "bytes": 539542
+    },
+    {
+      "url": "/assets/transit/duck-pond-full-15410fd4f92df5.glb.gz",
+      "bytes": 1067320
+    },
+    {
+      "url": "/assets/transit/duck-pond-mobile-864c6ef99a5a0a.glb.gz",
+      "bytes": 1282306
+    },
+    {
+      "url": "/assets/transit/english-stone-bridge-c6b7ab26c19f4d-full-04f8d8756dbc23.glb.gz",
+      "bytes": 2128324
+    },
+    {
+      "url": "/assets/transit/english-stone-bridge-full-c37535b8e0ed59.glb.gz",
+      "bytes": 4781658
+    },
+    {
+      "url": "/assets/transit/english-stone-bridge-mobile-4c5844e21d2d54.glb.gz",
+      "bytes": 1304187
+    },
+    {
+      "url": "/assets/transit/fence-96b52ad7928f-full-ba8e86b4c66582.glb.gz",
+      "bytes": 147739
+    },
+    {
+      "url": "/assets/transit/fence-96b52ad7928f-mobile-ba8e86b4c66582.glb.gz",
+      "bytes": 147739
+    },
+    {
+      "url": "/assets/transit/festival--bunting-b2bc2e9be18b-full-9a67f0544030ea.glb.gz",
+      "bytes": 81799
+    },
+    {
+      "url": "/assets/transit/festival--bunting-b2bc2e9be18b-mobile-9a67f0544030ea.glb.gz",
+      "bytes": 81799
+    },
+    {
+      "url": "/assets/transit/festival--snowdrop-b7375444fc0a-full-1616b923ea537e.glb.gz",
+      "bytes": 59075
+    },
+    {
+      "url": "/assets/transit/festival--snowdrop-b7375444fc0a-mobile-1616b923ea537e.glb.gz",
+      "bytes": 59075
+    },
+    {
+      "url": "/assets/transit/festival--star-lantern-d30a46ba2f02-full-cb8f2dcacd51e0.glb.gz",
+      "bytes": 81391
+    },
+    {
+      "url": "/assets/transit/festival--star-lantern-d30a46ba2f02-mobile-cb8f2dcacd51e0.glb.gz",
+      "bytes": 81391
+    },
+    {
+      "url": "/assets/transit/fir-grove-96fc228828dd-full-b2c917dfb71188.glb.gz",
+      "bytes": 258522
+    },
+    {
+      "url": "/assets/transit/fir-grove-96fc228828dd-mobile-b2c917dfb71188.glb.gz",
+      "bytes": 258522
+    },
+    {
+      "url": "/assets/transit/fir-grove-full-65f0bfac17cd89.glb.gz",
+      "bytes": 136273
+    },
+    {
+      "url": "/assets/transit/fir-grove-mobile-65f0bfac17cd89.glb.gz",
+      "bytes": 136273
+    },
+    {
+      "url": "/assets/transit/flower-cart-full-471b751b5112f2.glb.gz",
+      "bytes": 2593680
+    },
+    {
+      "url": "/assets/transit/flower-cart-mobile-32df32db92a0dc.glb.gz",
+      "bytes": 1322768
+    },
+    {
+      "url": "/assets/transit/forest-boardwalk-lod-0b4904e62c7a72-full-fc055925d5d5ef.glb.gz",
+      "bytes": 1052054
+    },
+    {
+      "url": "/assets/transit/forest-boardwalk-lod-full-ede1c08b97bad3.glb.gz",
+      "bytes": 3849638
+    },
+    {
+      "url": "/assets/transit/forest-boardwalk-lod-mobile-bc68ea635ff75e.glb.gz",
+      "bytes": 133365
+    },
+    {
+      "url": "/assets/transit/fountain-d9b7d97c2358-full-65054ad71b057f.glb.gz",
+      "bytes": 359935
+    },
+    {
+      "url": "/assets/transit/fountain-d9b7d97c2358-mobile-65054ad71b057f.glb.gz",
+      "bytes": 359935
+    },
+    {
+      "url": "/assets/transit/frost-snowball-lod-58139d07eb80-full-6b20f088f7cd99.glb.gz",
+      "bytes": 72966
+    },
+    {
+      "url": "/assets/transit/frost-snowball-lod-58139d07eb80-mobile-6b20f088f7cd99.glb.gz",
+      "bytes": 72966
+    },
+    {
+      "url": "/assets/transit/frost-snowball-lod-f19f1b6eb96b75-full-63dd35d989cee0.glb.gz",
+      "bytes": 3420637
+    },
+    {
+      "url": "/assets/transit/frost-snowball-lod-full-35fb463114862f.glb.gz",
+      "bytes": 10832245
+    },
+    {
+      "url": "/assets/transit/frost-snowball-lod-mobile-30a8616fd73d59.glb.gz",
+      "bytes": 1253777
+    },
+    {
+      "url": "/assets/transit/garden-arch-5fe9ded15066-full-a0ac8c5e750084.glb.gz",
+      "bytes": 496505
+    },
+    {
+      "url": "/assets/transit/garden-arch-5fe9ded15066-mobile-a0ac8c5e750084.glb.gz",
+      "bytes": 496505
+    },
+    {
+      "url": "/assets/transit/ghost-carved-railing-lod-a44d84dbee6d8d-full-54ae89708b84de.glb.gz",
+      "bytes": 2400285
+    },
+    {
+      "url": "/assets/transit/ghost-carved-railing-lod-full-d0969662531259.glb.gz",
+      "bytes": 7225893
+    },
+    {
+      "url": "/assets/transit/ghost-carved-railing-lod-mobile-8d63b0dc8571c3.glb.gz",
+      "bytes": 894748
+    },
+    {
+      "url": "/assets/transit/ghost-red-lantern-lod-6950b3f059787e-full-3ecdf7d195efbf.glb.gz",
+      "bytes": 2504184
+    },
+    {
+      "url": "/assets/transit/ghost-red-lantern-lod-full-50103838fa82a1.glb.gz",
+      "bytes": 7275139
+    },
+    {
+      "url": "/assets/transit/ghost-red-lantern-lod-mobile-4eeb9e940739c8.glb.gz",
+      "bytes": 1011475
+    },
+    {
+      "url": "/assets/transit/gift-sleigh-full-a4b9139e3d639a.glb.gz",
+      "bytes": 1495407
+    },
+    {
+      "url": "/assets/transit/gift-sleigh-mobile-8a9d9ea9b9e822.glb.gz",
+      "bytes": 1687351
+    },
+    {
+      "url": "/assets/transit/golden-meteor-lod-102c3161be3693-full-9840c209096ef5.glb.gz",
+      "bytes": 1443984
+    },
+    {
+      "url": "/assets/transit/golden-meteor-lod-full-c2774a547c4577.glb.gz",
+      "bytes": 4672894
+    },
+    {
+      "url": "/assets/transit/golden-meteor-lod-mobile-240094d4781517.glb.gz",
+      "bytes": 428704
+    },
+    {
+      "url": "/assets/transit/gramophone-full-ebeca5f5b68e4a.glb.gz",
+      "bytes": 1151309
+    },
+    {
+      "url": "/assets/transit/gramophone-mobile-710d0e94eb55eb.glb.gz",
+      "bytes": 1346175
+    },
+    {
+      "url": "/assets/transit/gypsophila-clump-lod-97ab0a147956-full-1e0315fa5ed314.glb.gz",
+      "bytes": 69154
+    },
+    {
+      "url": "/assets/transit/gypsophila-clump-lod-97ab0a147956-mobile-1e0315fa5ed314.glb.gz",
+      "bytes": 69154
+    },
+    {
+      "url": "/assets/transit/gypsophila-clump-lod-ba999b8b5f77a4-full-bc6078bb8aa69b.glb.gz",
+      "bytes": 3505016
+    },
+    {
+      "url": "/assets/transit/gypsophila-clump-lod-full-2eb620e6b0200d.glb.gz",
+      "bytes": 10364787
+    },
+    {
+      "url": "/assets/transit/gypsophila-clump-lod-mobile-8fa142539398ec.glb.gz",
+      "bytes": 1673626
+    },
+    {
+      "url": "/assets/transit/haunt-altar-full-9d739ea095e404.glb.gz",
+      "bytes": 1970655
+    },
+    {
+      "url": "/assets/transit/haunt-altar-mobile-85efaf2576b1cd.glb.gz",
+      "bytes": 734829
+    },
+    {
+      "url": "/assets/transit/haunt-bamboo-full-7756cebb6935cf.glb.gz",
+      "bytes": 2642216
+    },
+    {
+      "url": "/assets/transit/haunt-bamboo-mobile-46216e39b92df9.glb.gz",
+      "bytes": 1394814
+    },
+    {
+      "url": "/assets/transit/haunt-bell-full-dcc34c045d3584.glb.gz",
+      "bytes": 1047072
+    },
+    {
+      "url": "/assets/transit/haunt-bell-mobile-67bc0e5835ef09.glb.gz",
+      "bytes": 574574
+    },
+    {
+      "url": "/assets/transit/haunt-door-full-1d9996eb1f6b23.glb.gz",
+      "bytes": 2117457
+    },
+    {
+      "url": "/assets/transit/haunt-door-mobile-4bd9767e3a20bb.glb.gz",
+      "bytes": 821647
+    },
+    {
+      "url": "/assets/transit/haunt-lantern-full-9eaabbe0ff3638.glb.gz",
+      "bytes": 1416204
+    },
+    {
+      "url": "/assets/transit/haunt-lantern-mobile-7f1d4d87fd026e.glb.gz",
+      "bytes": 936221
+    },
+    {
+      "url": "/assets/transit/haunt-mask-full-d44e54b0eb0826.glb.gz",
+      "bytes": 1071153
+    },
+    {
+      "url": "/assets/transit/haunt-mask-mobile-24ea25a2ac6ff7.glb.gz",
+      "bytes": 554665
+    },
+    {
+      "url": "/assets/transit/haunt-screen-full-2dd5c9a6a61b5d.glb.gz",
+      "bytes": 2241007
+    },
+    {
+      "url": "/assets/transit/haunt-screen-mobile-975566a016baf3.glb.gz",
+      "bytes": 868414
+    },
+    {
+      "url": "/assets/transit/haunt-stone-lion-full-26700ec8fac9ad.glb.gz",
+      "bytes": 1938541
+    },
+    {
+      "url": "/assets/transit/haunt-stone-lion-mobile-895914de63508f.glb.gz",
+      "bytes": 654911
+    },
+    {
+      "url": "/assets/transit/haunt-urn-full-29fbd0aadd6b4d.glb.gz",
+      "bytes": 1295913
+    },
+    {
+      "url": "/assets/transit/haunt-urn-mobile-23b2aed97ea334.glb.gz",
+      "bytes": 784832
+    },
+    {
+      "url": "/assets/transit/haunt-well-full-b01ddf15d9d770.glb.gz",
+      "bytes": 1871578
+    },
+    {
+      "url": "/assets/transit/haunt-well-mobile-f6346cd7568a7e.glb.gz",
+      "bytes": 630109
+    },
+    {
+      "url": "/assets/transit/haunted-moon-gate-full-abccb1aa615dc4.glb.gz",
+      "bytes": 2822596
+    },
+    {
+      "url": "/assets/transit/haunted-moon-gate-mobile-c0cfe7e1be68bb.glb.gz",
+      "bytes": 786639
+    },
+    {
+      "url": "/assets/transit/haunted-opera-stage-full-38d3c9ac77c6a0.glb.gz",
+      "bytes": 3404963
+    },
+    {
+      "url": "/assets/transit/haunted-opera-stage-mobile-547dc320a6dc21.glb.gz",
+      "bytes": 1051403
+    },
+    {
+      "url": "/assets/transit/hero-angel-full-5e7dc5cafe65d4.glb.gz",
+      "bytes": 5188196
+    },
+    {
+      "url": "/assets/transit/hero-angel-mobile-5e7dc5cafe65d4.glb.gz",
+      "bytes": 5188196
+    },
+    {
+      "url": "/assets/transit/hero-game-full-ec2abfcfa77219.glb.gz",
+      "bytes": 3331518
+    },
+    {
+      "url": "/assets/transit/hero-game-mobile-ec2abfcfa77219.glb.gz",
+      "bytes": 3331518
+    },
+    {
+      "url": "/assets/transit/hero-kangaroo-game-full-0517fa67deeb17.glb.gz",
+      "bytes": 9804159
+    },
+    {
+      "url": "/assets/transit/hero-kangaroo-game-mobile-3fc9d006543573.glb.gz",
+      "bytes": 9804258
+    },
+    {
+      "url": "/assets/transit/hero-passenger-posed-full-fd038c2af35375.glb.gz",
+      "bytes": 3434275
+    },
+    {
+      "url": "/assets/transit/hero-passenger-posed-mobile-fd038c2af35375.glb.gz",
+      "bytes": 3434275
+    },
+    {
+      "url": "/assets/transit/ice-waterfall-c3d7fe8b2ce045-full-947dd34698c3bd.glb.gz",
+      "bytes": 2665635
+    },
+    {
+      "url": "/assets/transit/ice-waterfall-full-cdec97e1d02d8b.glb.gz",
+      "bytes": 6193670
+    },
+    {
+      "url": "/assets/transit/ice-waterfall-mobile-888f41bebcb5e5.glb.gz",
+      "bytes": 1483719
+    },
+    {
+      "url": "/assets/transit/kite-full-bdc2933caff9d9.glb.gz",
+      "bytes": 1140643
+    },
+    {
+      "url": "/assets/transit/kite-mobile-9764b789b63a10.glb.gz",
+      "bytes": 622373
+    },
+    {
+      "url": "/assets/transit/lamp-d17532a357be-full-20983e32109074.glb.gz",
+      "bytes": 151673
+    },
+    {
+      "url": "/assets/transit/lamp-d17532a357be-mobile-20983e32109074.glb.gz",
+      "bytes": 151673
+    },
+    {
+      "url": "/assets/transit/laugher-cover-43fc926d5fd549-full-3557a986a2e6f8.glb.gz",
+      "bytes": 2260558
+    },
+    {
+      "url": "/assets/transit/laugher-cover-full-0bf5562fa14831.glb.gz",
+      "bytes": 6620486
+    },
+    {
+      "url": "/assets/transit/laugher-cover-mobile-4f65e0c433a215.glb.gz",
+      "bytes": 1030372
+    },
+    {
+      "url": "/assets/transit/letter-bin-full-63f81a2be5c568.glb.gz",
+      "bytes": 959645
+    },
+    {
+      "url": "/assets/transit/letter-bin-mobile-36852dff651373.glb.gz",
+      "bytes": 515224
+    },
+    {
+      "url": "/assets/transit/lost-case-full-7e151a1d317b7c.glb.gz",
+      "bytes": 1455055
+    },
+    {
+      "url": "/assets/transit/lost-case-mobile-d47b7e5ba6a2b9.glb.gz",
+      "bytes": 1638442
+    },
+    {
+      "url": "/assets/transit/luggage-cart-full-c9904f3b35a30e.glb.gz",
+      "bytes": 2093133
+    },
+    {
+      "url": "/assets/transit/luggage-cart-mobile-ccff61497787a3.glb.gz",
+      "bytes": 751787
+    },
+    {
+      "url": "/assets/transit/mail-trunk-full-1d4577da7e1a56.glb.gz",
+      "bytes": 1934468
+    },
+    {
+      "url": "/assets/transit/mail-trunk-mobile-47c2f52368671a.glb.gz",
+      "bytes": 639819
+    },
+    {
+      "url": "/assets/transit/mushroom-booth-full-5a630b2b82c476.glb.gz",
+      "bytes": 1093649
+    },
+    {
+      "url": "/assets/transit/mushroom-booth-mobile-502c9f250e0c83.glb.gz",
+      "bytes": 1367433
+    },
+    {
+      "url": "/assets/transit/mushroom-full-358156e717c533.glb.gz",
+      "bytes": 470201
+    },
+    {
+      "url": "/assets/transit/mushroom-mobile-5c77c30d86cc14.glb.gz",
+      "bytes": 685232
+    },
+    {
+      "url": "/assets/transit/musicbox-f4f82e00a745-full-e200278884fb7e.glb.gz",
+      "bytes": 205676
+    },
+    {
+      "url": "/assets/transit/musicbox-f4f82e00a745-mobile-e200278884fb7e.glb.gz",
+      "bytes": 205676
+    },
+    {
+      "url": "/assets/transit/npc-mouse-game-full-de981ad08ef5a0.glb.gz",
+      "bytes": 1831972
+    },
+    {
+      "url": "/assets/transit/npc-mouse-game-mobile-de981ad08ef5a0.glb.gz",
+      "bytes": 1831972
+    },
+    {
+      "url": "/assets/transit/npc-pink-game-full-bada1c1744e981.glb.gz",
+      "bytes": 1848590
+    },
+    {
+      "url": "/assets/transit/npc-pink-game-mobile-bada1c1744e981.glb.gz",
+      "bytes": 1848590
+    },
+    {
+      "url": "/assets/transit/observatory-full-6ce7cd3b954d8e.glb.gz",
+      "bytes": 1030239
+    },
+    {
+      "url": "/assets/transit/observatory-mobile-2e863ea3eb4ee6.glb.gz",
+      "bytes": 1267171
+    },
+    {
+      "url": "/assets/transit/ornate-christmas-tree-c03d3c68fc4393-full-008237f2c4cf3f.glb.gz",
+      "bytes": 3156189
+    },
+    {
+      "url": "/assets/transit/ornate-christmas-tree-full-83394bd083d089.glb.gz",
+      "bytes": 7280369
+    },
+    {
+      "url": "/assets/transit/ornate-christmas-tree-lod-dec339e15ccc32-full-dd2242f9cbd4a8.glb.gz",
+      "bytes": 2397107
+    },
+    {
+      "url": "/assets/transit/ornate-christmas-tree-lod-df8ac3c937a2-full-dc41d361a3d9d3.glb.gz",
+      "bytes": 70703
+    },
+    {
+      "url": "/assets/transit/ornate-christmas-tree-lod-df8ac3c937a2-mobile-dc41d361a3d9d3.glb.gz",
+      "bytes": 70703
+    },
+    {
+      "url": "/assets/transit/ornate-christmas-tree-lod-full-14549ea5532607.glb.gz",
+      "bytes": 6521278
+    },
+    {
+      "url": "/assets/transit/ornate-christmas-tree-lod-mobile-0ad3890d6a33e8.glb.gz",
+      "bytes": 904244
+    },
+    {
+      "url": "/assets/transit/ornate-christmas-tree-mobile-384c13b45bc907.glb.gz",
+      "bytes": 1663317
+    },
+    {
+      "url": "/assets/transit/palace-skybridge-b09a38a02907af-full-8333e0a4249766.glb.gz",
+      "bytes": 2585474
+    },
+    {
+      "url": "/assets/transit/palace-skybridge-full-96dd1d5addb17b.glb.gz",
+      "bytes": 6139179
+    },
+    {
+      "url": "/assets/transit/palace-skybridge-mobile-bf3d1c45a2c3be.glb.gz",
+      "bytes": 1383092
+    },
+    {
+      "url": "/assets/transit/park-bumper-blue-full-3f841b5429f777.glb.gz",
+      "bytes": 761079
+    },
+    {
+      "url": "/assets/transit/park-bumper-blue-mobile-4175aa736e07aa.glb.gz",
+      "bytes": 940822
+    },
+    {
+      "url": "/assets/transit/park-bumper-gold-full-4236e1a5c38b6e.glb.gz",
+      "bytes": 783548
+    },
+    {
+      "url": "/assets/transit/park-bumper-gold-mobile-06436fc64e4db2.glb.gz",
+      "bytes": 979097
+    },
+    {
+      "url": "/assets/transit/park-bumper-hall-full-ccfadeb4af7fef.glb.gz",
+      "bytes": 2453071
+    },
+    {
+      "url": "/assets/transit/park-bumper-hall-mobile-b8460b672dbb62.glb.gz",
+      "bytes": 2128115
+    },
+    {
+      "url": "/assets/transit/park-bumper-pink-full-285bbc593c4352.glb.gz",
+      "bytes": 732739
+    },
+    {
+      "url": "/assets/transit/park-bumper-pink-mobile-3b278943aecd19.glb.gz",
+      "bytes": 893655
+    },
+    {
+      "url": "/assets/transit/park-entry-2f6d405d5222-full-e5a846d5bb6adc.glb.gz",
+      "bytes": 393291
+    },
+    {
+      "url": "/assets/transit/park-entry-2f6d405d5222-mobile-e5a846d5bb6adc.glb.gz",
+      "bytes": 393291
+    },
+    {
+      "url": "/assets/transit/park-ferris-base-full-8a9cfdac33fcf3.glb.gz",
+      "bytes": 2030726
+    },
+    {
+      "url": "/assets/transit/park-ferris-base-mobile-d471a7bbe344cf.glb.gz",
+      "bytes": 1766063
+    },
+    {
+      "url": "/assets/transit/park-ferris-cabin-full-91a1ffd07e92c9.glb.gz",
+      "bytes": 1892301
+    },
+    {
+      "url": "/assets/transit/park-ferris-cabin-mobile-a8fb49ef356685.glb.gz",
+      "bytes": 1657190
+    },
+    {
+      "url": "/assets/transit/park-ferris-wheel-full-2de036511d9583.glb.gz",
+      "bytes": 2516271
+    },
+    {
+      "url": "/assets/transit/park-ferris-wheel-mobile-899975c4e1f285.glb.gz",
+      "bytes": 2248466
+    },
+    {
+      "url": "/assets/transit/park-kiosk-full-67898303a5be4e.glb.gz",
+      "bytes": 3146121
+    },
+    {
+      "url": "/assets/transit/park-kiosk-mobile-63dc6fc3368d5e.glb.gz",
+      "bytes": 733227
+    },
+    {
+      "url": "/assets/transit/park-rocker-full-73a26fe9c57501.glb.gz",
+      "bytes": 2002700
+    },
+    {
+      "url": "/assets/transit/park-rocker-mobile-d411a8e3571300.glb.gz",
+      "bytes": 712261
+    },
+    {
+      "url": "/assets/transit/park-swing-frame-full-b75d6db27615d1.glb.gz",
+      "bytes": 944769
+    },
+    {
+      "url": "/assets/transit/park-swing-frame-mobile-b99f27a5655522.glb.gz",
+      "bytes": 1230585
+    },
+    {
+      "url": "/assets/transit/pastry-cart-full-c6e3254f872466.glb.gz",
+      "bytes": 1483581
+    },
+    {
+      "url": "/assets/transit/pastry-cart-mobile-d230bb57957335.glb.gz",
+      "bytes": 1701910
+    },
+    {
+      "url": "/assets/transit/peach-cave-lod-d36ae118191b41-full-f7eef79fc4714d.glb.gz",
+      "bytes": 1982485
+    },
+    {
+      "url": "/assets/transit/peach-cave-lod-full-89942363bedaa8.glb.gz",
+      "bytes": 5820890
+    },
+    {
+      "url": "/assets/transit/peach-cave-lod-mobile-c6ed563de61b31.glb.gz",
+      "bytes": 728748
+    },
+    {
+      "url": "/assets/transit/peach-tree-lod-9960b79aca9507-full-496d39f723730a.glb.gz",
+      "bytes": 1987101
+    },
+    {
+      "url": "/assets/transit/peach-tree-lod-full-6609f5cce1a4bd.glb.gz",
+      "bytes": 6084279
+    },
+    {
+      "url": "/assets/transit/peach-tree-lod-mobile-1821c1a5250cd1.glb.gz",
+      "bytes": 1046606
+    },
+    {
+      "url": "/assets/transit/photo-board-full-ff5346a04aa1b1.glb.gz",
+      "bytes": 1377225
+    },
+    {
+      "url": "/assets/transit/photo-board-mobile-5239ce231f5276.glb.gz",
+      "bytes": 1582900
+    },
+    {
+      "url": "/assets/transit/photographer-full-22469e81e7c49b.glb.gz",
+      "bytes": 1331914
+    },
+    {
+      "url": "/assets/transit/photographer-mobile-5847c1174ad3f6.glb.gz",
+      "bytes": 1147006
+    },
+    {
+      "url": "/assets/transit/pirate-frame-full-890e1742b2099e.glb.gz",
+      "bytes": 940133
+    },
+    {
+      "url": "/assets/transit/pirate-frame-mobile-6bbf3740f49a0b.glb.gz",
+      "bytes": 1077392
+    },
+    {
+      "url": "/assets/transit/pirate-ship-full-96a91187f29ad5.glb.gz",
+      "bytes": 1054010
+    },
+    {
+      "url": "/assets/transit/pirate-ship-mobile-629ebbe5c2ffb1.glb.gz",
+      "bytes": 1246732
+    },
+    {
+      "url": "/assets/transit/planter-30cc4057fed9-full-295a172bfd4ab3.glb.gz",
+      "bytes": 180951
+    },
+    {
+      "url": "/assets/transit/planter-30cc4057fed9-mobile-295a172bfd4ab3.glb.gz",
+      "bytes": 180951
+    },
+    {
+      "url": "/assets/transit/portal-7cb0fd00e0c7-full-8f4f4e092e1102.glb.gz",
+      "bytes": 193297
+    },
+    {
+      "url": "/assets/transit/portal-7cb0fd00e0c7-mobile-8f4f4e092e1102.glb.gz",
+      "bytes": 193297
+    },
+    {
+      "url": "/assets/transit/portal-full-93a805149d92c7.glb.gz",
+      "bytes": 848527
+    },
+    {
+      "url": "/assets/transit/portal-mobile-b6202e44c7fbbf.glb.gz",
+      "bytes": 987380
+    },
+    {
+      "url": "/assets/transit/postal-tower-full-6089169a0f6628.glb.gz",
+      "bytes": 3941144
+    },
+    {
+      "url": "/assets/transit/postal-tower-mobile-0e9880e20f0ef4.glb.gz",
+      "bytes": 1315617
+    },
+    {
+      "url": "/assets/transit/postbox-full-8f4540d1bae769.glb.gz",
+      "bytes": 1320479
+    },
+    {
+      "url": "/assets/transit/postbox-mobile-9c8e9e2c6a7aa8.glb.gz",
+      "bytes": 1505620
+    },
+    {
+      "url": "/assets/transit/princess-castle-740367fcf0177f-full-3ab73b9560135b.glb.gz",
+      "bytes": 2758596
+    },
+    {
+      "url": "/assets/transit/princess-castle-full-d7d613a0ce8be6.glb.gz",
+      "bytes": 6218673
+    },
+    {
+      "url": "/assets/transit/princess-castle-mobile-5147bb56b2f0bc.glb.gz",
+      "bytes": 1665992
+    },
+    {
+      "url": "/assets/transit/prizes-5a5e97715d0c-full-d4442ced15ca29.glb.gz",
+      "bytes": 219922
+    },
+    {
+      "url": "/assets/transit/prizes-5a5e97715d0c-mobile-d4442ced15ca29.glb.gz",
+      "bytes": 219922
+    },
+    {
+      "url": "/assets/transit/reader-full-dd23b00a22e862.glb.gz",
+      "bytes": 1296670
+    },
+    {
+      "url": "/assets/transit/reader-mobile-5de4aeea760851.glb.gz",
+      "bytes": 1159891
+    },
+    {
+      "url": "/assets/transit/rest-pavilion-48ec6e84c1af3c-full-bd3c3a5953a54e.glb.gz",
+      "bytes": 2362685
+    },
+    {
+      "url": "/assets/transit/rest-pavilion-full-9efe74988d7573.glb.gz",
+      "bytes": 6284049
+    },
+    {
+      "url": "/assets/transit/rest-pavilion-mobile-bc5c747cd7cce2.glb.gz",
+      "bytes": 1248544
+    },
+    {
+      "url": "/assets/transit/ribbon-balloons-lod-72b97cec653aea-full-5f4ad3206863ea.glb.gz",
+      "bytes": 1537121
+    },
+    {
+      "url": "/assets/transit/ribbon-balloons-lod-f7d2fdb966ab-full-cde02b43d0835e.glb.gz",
+      "bytes": 205907
+    },
+    {
+      "url": "/assets/transit/ribbon-balloons-lod-f7d2fdb966ab-mobile-cde02b43d0835e.glb.gz",
+      "bytes": 205907
+    },
+    {
+      "url": "/assets/transit/ribbon-balloons-lod-full-d6270fb2ebdfa7.glb.gz",
+      "bytes": 4891029
+    },
+    {
+      "url": "/assets/transit/ribbon-balloons-lod-mobile-fbc9a3598d70c2.glb.gz",
+      "bytes": 703181
+    },
+    {
+      "url": "/assets/transit/ring-booth-full-ebf8f0573eeb44.glb.gz",
+      "bytes": 902347
+    },
+    {
+      "url": "/assets/transit/ring-booth-mobile-dae95fe8bbcd6b.glb.gz",
+      "bytes": 1049203
+    },
+    {
+      "url": "/assets/transit/roman-garden-bay-209f65469e63-full-009309b511d112.glb.gz",
+      "bytes": 447933
+    },
+    {
+      "url": "/assets/transit/roman-garden-bay-209f65469e63-mobile-009309b511d112.glb.gz",
+      "bytes": 447933
+    },
+    {
+      "url": "/assets/transit/roman-garden-bay-335f84de8079bb-full-d46ec46e8a5ea4.glb.gz",
+      "bytes": 2874290
+    },
+    {
+      "url": "/assets/transit/roman-garden-bay-full-7433cc52393766.glb.gz",
+      "bytes": 7450779
+    },
+    {
+      "url": "/assets/transit/roman-garden-bay-mobile-6a400fc632c776.glb.gz",
+      "bytes": 1340579
+    },
+    {
+      "url": "/assets/transit/rose-trellis-full-838d8f554840c1.glb.gz",
+      "bytes": 2523505
+    },
+    {
+      "url": "/assets/transit/rose-trellis-mobile-bad5bd72da318b.glb.gz",
+      "bytes": 1224272
+    },
+    {
+      "url": "/assets/transit/sandbag-full-421a010fc09685.glb.gz",
+      "bytes": 1087315
+    },
+    {
+      "url": "/assets/transit/sandbag-mobile-f60716cd28c5ce.glb.gz",
+      "bytes": 623206
+    },
+    {
+      "url": "/assets/transit/santa-full-d029d9acc7c69a.glb.gz",
+      "bytes": 1471823
+    },
+    {
+      "url": "/assets/transit/santa-mobile-a529a5d3d3e9a3.glb.gz",
+      "bytes": 1297656
+    },
+    {
+      "url": "/assets/transit/shopfront-7ada11dd7739-full-3fae79042721be.glb.gz",
+      "bytes": 391834
+    },
+    {
+      "url": "/assets/transit/shopfront-7ada11dd7739-mobile-3fae79042721be.glb.gz",
+      "bytes": 391834
+    },
+    {
+      "url": "/assets/transit/signal-console-full-93c0bb33cbbc40.glb.gz",
+      "bytes": 984373
+    },
+    {
+      "url": "/assets/transit/signal-console-mobile-4bdac0cd86e124.glb.gz",
+      "bytes": 537509
+    },
+    {
+      "url": "/assets/transit/sky-conservatory-full-c848f37b9eeb65.glb.gz",
+      "bytes": 3777979
+    },
+    {
+      "url": "/assets/transit/sky-conservatory-mobile-ac41b42818bc99.glb.gz",
+      "bytes": 1107236
+    },
+    {
+      "url": "/assets/transit/sky-market-full-a2712d846edb12.glb.gz",
+      "bytes": 2974133
+    },
+    {
+      "url": "/assets/transit/sky-market-mobile-26ee9832602a93.glb.gz",
+      "bytes": 859369
+    },
+    {
+      "url": "/assets/transit/snow-bollard-full-92b35670bda5a9.glb.gz",
+      "bytes": 1141775
+    },
+    {
+      "url": "/assets/transit/snow-bollard-mobile-d3e3b0b042855c.glb.gz",
+      "bytes": 690205
+    },
+    {
+      "url": "/assets/transit/snow-cliff-foundation-lod-f9dc2c5485c192-full-cc26db1e918bac.glb.gz",
+      "bytes": 1706246
+    },
+    {
+      "url": "/assets/transit/snow-cliff-foundation-lod-full-ce77756a46b6d1.glb.gz",
+      "bytes": 6500198
+    },
+    {
+      "url": "/assets/transit/snow-cliff-foundation-lod-mobile-de56110b03eaee.glb.gz",
+      "bytes": 420378
+    },
+    {
+      "url": "/assets/transit/snow-mountain-fe4af710e9c3a3-full-2adf7e965593e1.glb.gz",
+      "bytes": 1776282
+    },
+    {
+      "url": "/assets/transit/snow-mountain-full-c651509cdccba2.glb.gz",
+      "bytes": 4801899
+    },
+    {
+      "url": "/assets/transit/snow-mountain-mobile-c02aa3d0ba9020.glb.gz",
+      "bytes": 917512
+    },
+    {
+      "url": "/assets/transit/snow-pine-full-27e559522f3fb2.glb.gz",
+      "bytes": 3373647
+    },
+    {
+      "url": "/assets/transit/snow-pine-mobile-43f4f592c7f6ac.glb.gz",
+      "bytes": 1304198
+    },
+    {
+      "url": "/assets/transit/snow-train-818b8d78081398-full-0f25488993c981.glb.gz",
+      "bytes": 3016060
+    },
+    {
+      "url": "/assets/transit/snow-train-full-7a105b3ecf79b1.glb.gz",
+      "bytes": 6816109
+    },
+    {
+      "url": "/assets/transit/snow-train-mobile-73dbf1d7494241.glb.gz",
+      "bytes": 1852215
+    },
+    {
+      "url": "/assets/transit/snow-valley-terrain-full-2e030d250e1c97.glb.gz",
+      "bytes": 891444
+    },
+    {
+      "url": "/assets/transit/snow-valley-terrain-mobile-2e030d250e1c97.glb.gz",
+      "bytes": 891444
+    },
+    {
+      "url": "/assets/transit/snowdrop-full-7fc27648d83a3a.glb.gz",
+      "bytes": 1765678
+    },
+    {
+      "url": "/assets/transit/snowdrop-mobile-a8dbb8eec1c6aa.glb.gz",
+      "bytes": 1995884
+    },
+    {
+      "url": "/assets/transit/sorting-desk-full-781be7833b53d9.glb.gz",
+      "bytes": 1764102
+    },
+    {
+      "url": "/assets/transit/sorting-desk-mobile-de943d28bd2dc6.glb.gz",
+      "bytes": 655639
+    },
+    {
+      "url": "/assets/transit/star-chart-full-96d5320dc0b368.glb.gz",
+      "bytes": 1893450
+    },
+    {
+      "url": "/assets/transit/star-chart-mobile-f93e7a1041fd79.glb.gz",
+      "bytes": 649533
+    },
+    {
+      "url": "/assets/transit/star-lantern-full-cf0831aa33f4b2.glb.gz",
+      "bytes": 1463064
+    },
+    {
+      "url": "/assets/transit/star-lantern-mobile-43b6a3359f9c11.glb.gz",
+      "bytes": 1663279
+    },
+    {
+      "url": "/assets/transit/stone-fountain-full-5222914d5ea9f7.glb.gz",
+      "bytes": 3081903
+    },
+    {
+      "url": "/assets/transit/stone-fountain-mobile-a4980230febbc1.glb.gz",
+      "bytes": 686985
+    },
+    {
+      "url": "/assets/transit/swing-canopy-11b7880439f4-full-b798c898df7dec.glb.gz",
+      "bytes": 203389
+    },
+    {
+      "url": "/assets/transit/swing-canopy-11b7880439f4-mobile-b798c898df7dec.glb.gz",
+      "bytes": 203389
+    },
+    {
+      "url": "/assets/transit/swing-seat-1734f486418a-full-31c86a80e9bea8.glb.gz",
+      "bytes": 231819
+    },
+    {
+      "url": "/assets/transit/swing-seat-1734f486418a-mobile-31c86a80e9bea8.glb.gz",
+      "bytes": 231819
+    },
+    {
+      "url": "/assets/transit/tea-table-full-39b68944bcf643.glb.gz",
+      "bytes": 2045945
+    },
+    {
+      "url": "/assets/transit/tea-table-mobile-7ab6d666b1be0a.glb.gz",
+      "bytes": 747310
+    },
+    {
+      "url": "/assets/transit/teacup-69047c5e4b88-full-c4e2a5aa74d033.glb.gz",
+      "bytes": 389068
+    },
+    {
+      "url": "/assets/transit/teacup-69047c5e4b88-mobile-c4e2a5aa74d033.glb.gz",
+      "bytes": 389068
+    },
+    {
+      "url": "/assets/transit/teacup-deck-c5fbed6caa08-full-9ea2dbd17c94ae.glb.gz",
+      "bytes": 200504
+    },
+    {
+      "url": "/assets/transit/teacup-deck-c5fbed6caa08-mobile-9ea2dbd17c94ae.glb.gz",
+      "bytes": 200504
+    },
+    {
+      "url": "/assets/transit/teapot-df0c10407881-full-371cba8640b48e.glb.gz",
+      "bytes": 185351
+    },
+    {
+      "url": "/assets/transit/teapot-df0c10407881-mobile-371cba8640b48e.glb.gz",
+      "bytes": 185351
+    },
+    {
+      "url": "/assets/transit/telescope-full-cf79be8fcae333.glb.gz",
+      "bytes": 2257701
+    },
+    {
+      "url": "/assets/transit/telescope-mobile-7b4c7407fc7a31.glb.gz",
+      "bytes": 823686
+    },
+    {
+      "url": "/assets/transit/terrace-947ea7db195a-full-7388faa8704b3f.glb.gz",
+      "bytes": 429944
+    },
+    {
+      "url": "/assets/transit/terrace-947ea7db195a-mobile-7388faa8704b3f.glb.gz",
+      "bytes": 429944
+    },
+    {
+      "url": "/assets/transit/thinker-full-92e3e70ec3774f.glb.gz",
+      "bytes": 1194404
+    },
+    {
+      "url": "/assets/transit/thinker-mobile-b4322a797d1028.glb.gz",
+      "bytes": 1123824
+    },
+    {
+      "url": "/assets/transit/ticket-2ba9fb23c72d-full-ba396c775cfc27.glb.gz",
+      "bytes": 449866
+    },
+    {
+      "url": "/assets/transit/ticket-2ba9fb23c72d-mobile-ba396c775cfc27.glb.gz",
+      "bytes": 449866
+    },
+    {
+      "url": "/assets/transit/traveler-full-ab4679aa55688d.glb.gz",
+      "bytes": 1590207
+    },
+    {
+      "url": "/assets/transit/traveler-mobile-a608a426cbec39.glb.gz",
+      "bytes": 1272738
+    },
+    {
+      "url": "/assets/transit/unified--bandstand-28c03ff96ddcf5-full-886fff5a75a649.glb.gz",
+      "bytes": 2458298
+    },
+    {
+      "url": "/assets/transit/unified--bandstand-full-3f8ec04356e721.glb.gz",
+      "bytes": 4619244
+    },
+    {
+      "url": "/assets/transit/unified--bandstand-mobile-b5e09a276166aa.glb.gz",
+      "bytes": 1381571
+    },
+    {
+      "url": "/assets/transit/unified--bench-cd92a0a7ae74c2-full-d0b1557267553d.glb.gz",
+      "bytes": 1754552
+    },
+    {
+      "url": "/assets/transit/unified--bench-full-cfcfc78038b5b4.glb.gz",
+      "bytes": 4894710
+    },
+    {
+      "url": "/assets/transit/unified--bench-mobile-5bc6a5b437577f.glb.gz",
+      "bytes": 681653
+    },
+    {
+      "url": "/assets/transit/unified--candy-b37956f8d7e85b-full-8bcc114ae37d3d.glb.gz",
+      "bytes": 2000496
+    },
+    {
+      "url": "/assets/transit/unified--candy-full-53911dc6fb2c6e.glb.gz",
+      "bytes": 5233380
+    },
+    {
+      "url": "/assets/transit/unified--candy-mobile-9d8ca997af75bc.glb.gz",
+      "bytes": 887945
+    },
+    {
+      "url": "/assets/transit/unified--carousel-carriage-9855ffb842c249-full-e98136ff8c9229.glb.gz",
+      "bytes": 2192310
+    },
+    {
+      "url": "/assets/transit/unified--carousel-carriage-full-1efaceed24f524.glb.gz",
+      "bytes": 5557161
+    },
+    {
+      "url": "/assets/transit/unified--carousel-carriage-mobile-157f35c8d5bffa.glb.gz",
+      "bytes": 993895
+    },
+    {
+      "url": "/assets/transit/unified--carousel-deck-2129d3012deb80-full-9e48f9ca92375a.glb.gz",
+      "bytes": 1988788
+    },
+    {
+      "url": "/assets/transit/unified--carousel-deck-full-ae720153c32ff3.glb.gz",
+      "bytes": 5060297
+    },
+    {
+      "url": "/assets/transit/unified--carousel-deck-mobile-2bb02d90c20dee.glb.gz",
+      "bytes": 935605
+    },
+    {
+      "url": "/assets/transit/unified--carousel-horse-90f2a83d6fe17a-full-4003771766467a.glb.gz",
+      "bytes": 1895171
+    },
+    {
+      "url": "/assets/transit/unified--carousel-horse-full-4f75f53ebcfa7d.glb.gz",
+      "bytes": 4883699
+    },
+    {
+      "url": "/assets/transit/unified--carousel-horse-mobile-90dabb7ab5373c.glb.gz",
+      "bytes": 865064
+    },
+    {
+      "url": "/assets/transit/unified--carousel-roof-1161e95be1a618-full-a6a06efcbb5b96.glb.gz",
+      "bytes": 2792327
+    },
+    {
+      "url": "/assets/transit/unified--carousel-roof-full-0fcd74e24cde50.glb.gz",
+      "bytes": 4964144
+    },
+    {
+      "url": "/assets/transit/unified--carousel-roof-mobile-6d47349278ae8e.glb.gz",
+      "bytes": 1696672
+    },
+    {
+      "url": "/assets/transit/unified--carousel-swan-f80df4a145d49e-full-7fe638cd64b6a6.glb.gz",
+      "bytes": 1906794
+    },
+    {
+      "url": "/assets/transit/unified--carousel-swan-full-96cffdeedce285.glb.gz",
+      "bytes": 5256961
+    },
+    {
+      "url": "/assets/transit/unified--carousel-swan-mobile-2a276715b454f8.glb.gz",
+      "bytes": 774786
+    },
+    {
+      "url": "/assets/transit/unified--clock-67478d99b52c07-full-2de99b203a98e4.glb.gz",
+      "bytes": 1975399
+    },
+    {
+      "url": "/assets/transit/unified--clock-full-d83811447799a9.glb.gz",
+      "bytes": 5105156
+    },
+    {
+      "url": "/assets/transit/unified--clock-mobile-02fa1249d1fb59.glb.gz",
+      "bytes": 892777
+    },
+    {
+      "url": "/assets/transit/unified--fence-4129ad7fef0b36-full-9c126a4b39b259.glb.gz",
+      "bytes": 1496542
+    },
+    {
+      "url": "/assets/transit/unified--fence-full-8d5c46633edccc.glb.gz",
+      "bytes": 4589312
+    },
+    {
+      "url": "/assets/transit/unified--fence-mobile-6c77fb6bd83f46.glb.gz",
+      "bytes": 608758
+    },
+    {
+      "url": "/assets/transit/unified--fir-grove-35dd8db04c3645-full-e914b2618b283a.glb.gz",
+      "bytes": 3014560
+    },
+    {
+      "url": "/assets/transit/unified--fir-grove-full-2ac7898c62898e.glb.gz",
+      "bytes": 7229136
+    },
+    {
+      "url": "/assets/transit/unified--fir-grove-mobile-e6e092e38d3ac6.glb.gz",
+      "bytes": 1389265
+    },
+    {
+      "url": "/assets/transit/unified--fountain-632a800c88f9c4-full-1813bde507c924.glb.gz",
+      "bytes": 1964349
+    },
+    {
+      "url": "/assets/transit/unified--fountain-full-de1062036c349f.glb.gz",
+      "bytes": 3538079
+    },
+    {
+      "url": "/assets/transit/unified--fountain-mobile-22efb059a4396a.glb.gz",
+      "bytes": 1172583
+    },
+    {
+      "url": "/assets/transit/unified--garden-arch-0f45c5e4e9a05e-full-852e4635fe0ddc.glb.gz",
+      "bytes": 3377562
+    },
+    {
+      "url": "/assets/transit/unified--garden-arch-full-ec81a429060c90.glb.gz",
+      "bytes": 6867582
+    },
+    {
+      "url": "/assets/transit/unified--garden-arch-mobile-a8b9ae4159da1e.glb.gz",
+      "bytes": 1730648
+    },
+    {
+      "url": "/assets/transit/unified--lamp-797398e4a85ce0-full-4462331124f8bb.glb.gz",
+      "bytes": 1981605
+    },
+    {
+      "url": "/assets/transit/unified--lamp-full-3d9b4f9994201b.glb.gz",
+      "bytes": 5274173
+    },
+    {
+      "url": "/assets/transit/unified--lamp-mobile-67b715c5b8a963.glb.gz",
+      "bytes": 735924
+    },
+    {
+      "url": "/assets/transit/unified--musicbox-b7118e350d834b-full-86cf07eb78efc9.glb.gz",
+      "bytes": 2086535
+    },
+    {
+      "url": "/assets/transit/unified--musicbox-full-20f26a63f60271.glb.gz",
+      "bytes": 5266760
+    },
+    {
+      "url": "/assets/transit/unified--musicbox-mobile-eb3f910d7f2698.glb.gz",
+      "bytes": 953866
+    },
+    {
+      "url": "/assets/transit/unified--park-entry-c33187854928fe-full-65feecbf89cacc.glb.gz",
+      "bytes": 2376131
+    },
+    {
+      "url": "/assets/transit/unified--park-entry-full-a6d23e36e12370.glb.gz",
+      "bytes": 4508770
+    },
+    {
+      "url": "/assets/transit/unified--park-entry-mobile-f94b4ff9c6c23f.glb.gz",
+      "bytes": 1295397
+    },
+    {
+      "url": "/assets/transit/unified--planter-13ad0e2d361ae1-full-f40cda50dfff4d.glb.gz",
+      "bytes": 2326787
+    },
+    {
+      "url": "/assets/transit/unified--planter-full-23da55e569a95d.glb.gz",
+      "bytes": 6144030
+    },
+    {
+      "url": "/assets/transit/unified--planter-mobile-ecf9456cb8fe13.glb.gz",
+      "bytes": 933356
+    },
+    {
+      "url": "/assets/transit/unified--prizes-89b56ab6042946-full-7d5f41529a6215.glb.gz",
+      "bytes": 2092598
+    },
+    {
+      "url": "/assets/transit/unified--prizes-full-b5b297e056e7e3.glb.gz",
+      "bytes": 5330566
+    },
+    {
+      "url": "/assets/transit/unified--prizes-mobile-2157bd6943fd20.glb.gz",
+      "bytes": 946821
+    },
+    {
+      "url": "/assets/transit/unified--shopfront-97607fe8b6ea53-full-9a68803cd82a3c.glb.gz",
+      "bytes": 2373296
+    },
+    {
+      "url": "/assets/transit/unified--shopfront-full-96eaae76f4b765.glb.gz",
+      "bytes": 4514065
+    },
+    {
+      "url": "/assets/transit/unified--shopfront-mobile-01703a46bbac4e.glb.gz",
+      "bytes": 1297212
+    },
+    {
+      "url": "/assets/transit/unified--swing-canopy-e16423de956760-full-50d6b3580c8f87.glb.gz",
+      "bytes": 2198252
+    },
+    {
+      "url": "/assets/transit/unified--swing-canopy-full-d342c6cd977b2b.glb.gz",
+      "bytes": 5800860
+    },
+    {
+      "url": "/assets/transit/unified--swing-canopy-mobile-68bc8675011e26.glb.gz",
+      "bytes": 892701
+    },
+    {
+      "url": "/assets/transit/unified--swing-seat-1913e6aa1c054e-full-79f8d7da73b0a1.glb.gz",
+      "bytes": 1969182
+    },
+    {
+      "url": "/assets/transit/unified--swing-seat-full-2fbb4bc0bd78c3.glb.gz",
+      "bytes": 5132859
+    },
+    {
+      "url": "/assets/transit/unified--swing-seat-mobile-2077a1b707b345.glb.gz",
+      "bytes": 907595
+    },
+    {
+      "url": "/assets/transit/unified--teacup-343702f281d06b-full-32d97def17be0c.glb.gz",
+      "bytes": 2229505
+    },
+    {
+      "url": "/assets/transit/unified--teacup-deck-6ebcd89da617df-full-65fd781b12186a.glb.gz",
+      "bytes": 1870570
+    },
+    {
+      "url": "/assets/transit/unified--teacup-deck-full-56ebf6ecc28cbe.glb.gz",
+      "bytes": 5384300
+    },
+    {
+      "url": "/assets/transit/unified--teacup-deck-mobile-75ac4d536c7f97.glb.gz",
+      "bytes": 823758
+    },
+    {
+      "url": "/assets/transit/unified--teacup-full-7b4e8e5bb619a6.glb.gz",
+      "bytes": 4066106
+    },
+    {
+      "url": "/assets/transit/unified--teacup-mobile-f9d7c3d7baaa97.glb.gz",
+      "bytes": 1276383
+    },
+    {
+      "url": "/assets/transit/unified--teapot-f4d227e5c0c151-full-bc3f86b8e8e9cf.glb.gz",
+      "bytes": 1579579
+    },
+    {
+      "url": "/assets/transit/unified--teapot-full-ac03f240a20bb2.glb.gz",
+      "bytes": 4361264
+    },
+    {
+      "url": "/assets/transit/unified--teapot-mobile-3a050c554f0d52.glb.gz",
+      "bytes": 678799
+    },
+    {
+      "url": "/assets/transit/unified--terrace-790352f3004fb9-full-9623ac307da74f.glb.gz",
+      "bytes": 2253246
+    },
+    {
+      "url": "/assets/transit/unified--terrace-full-883745326b84be.glb.gz",
+      "bytes": 4021473
+    },
+    {
+      "url": "/assets/transit/unified--terrace-mobile-eb9f4dbc7cc49c.glb.gz",
+      "bytes": 1367580
+    },
+    {
+      "url": "/assets/transit/unified--ticket-c4e9060a9f8f7e-full-c6545f0ff9f4a6.glb.gz",
+      "bytes": 2725694
+    },
+    {
+      "url": "/assets/transit/unified--ticket-full-8d7227e975049d.glb.gz",
+      "bytes": 5225924
+    },
+    {
+      "url": "/assets/transit/unified--ticket-mobile-6f849b5ae7f47d.glb.gz",
+      "bytes": 1492540
+    },
+    {
+      "url": "/assets/transit/unified--village-house-fdae4f18d75d22-full-fe7e773135108c.glb.gz",
+      "bytes": 2486689
+    },
+    {
+      "url": "/assets/transit/unified--village-house-full-51046b00321332.glb.gz",
+      "bytes": 4694680
+    },
+    {
+      "url": "/assets/transit/unified--village-house-mobile-e3db8ac1d3432a.glb.gz",
+      "bytes": 1378465
+    },
+    {
+      "url": "/assets/transit/unified--wayfinder-cb4b62639257fa-full-512dd73c18cb5d.glb.gz",
+      "bytes": 1631322
+    },
+    {
+      "url": "/assets/transit/unified--wayfinder-full-62cb5cc45d5b3e.glb.gz",
+      "bytes": 4348533
+    },
+    {
+      "url": "/assets/transit/unified--wayfinder-mobile-fb04034803c00d.glb.gz",
+      "bytes": 682484
+    },
+    {
+      "url": "/assets/transit/unified--winter-manor-5b48cacc3df635-full-426387a743973a.glb.gz",
+      "bytes": 2452804
+    },
+    {
+      "url": "/assets/transit/unified--winter-manor-full-0979c0674d3042.glb.gz",
+      "bytes": 4590041
+    },
+    {
+      "url": "/assets/transit/unified--winter-manor-mobile-000b62e5d0bc1e.glb.gz",
+      "bytes": 1377281
+    },
+    {
+      "url": "/assets/transit/unified--winter-tree-c055162e30a061-full-00e893726b4b4d.glb.gz",
+      "bytes": 2707485
+    },
+    {
+      "url": "/assets/transit/unified--winter-tree-full-1954306b2eaeeb.glb.gz",
+      "bytes": 6435455
+    },
+    {
+      "url": "/assets/transit/unified--winter-tree-mobile-a51889bd1a1516.glb.gz",
+      "bytes": 1326102
+    },
+    {
+      "url": "/assets/transit/village-house-13c4342c6a0d-full-5abd9d0e78a749.glb.gz",
+      "bytes": 411460
+    },
+    {
+      "url": "/assets/transit/village-house-13c4342c6a0d-mobile-5abd9d0e78a749.glb.gz",
+      "bytes": 411460
+    },
+    {
+      "url": "/assets/transit/watering-can-full-24cdef138df224.glb.gz",
+      "bytes": 1070568
+    },
+    {
+      "url": "/assets/transit/watering-can-mobile-eca75da4dd3485.glb.gz",
+      "bytes": 616579
+    },
+    {
+      "url": "/assets/transit/wayfinder-293b8936ad6f-full-e658643e9f8e4b.glb.gz",
+      "bytes": 192969
+    },
+    {
+      "url": "/assets/transit/wayfinder-293b8936ad6f-mobile-e658643e9f8e4b.glb.gz",
+      "bytes": 192969
+    },
+    {
+      "url": "/assets/transit/welcome-full-d03b4fd019ee98.glb.gz",
+      "bytes": 1213944
+    },
+    {
+      "url": "/assets/transit/welcome-mobile-9fb80f81828d6b.glb.gz",
+      "bytes": 1114973
+    },
+    {
+      "url": "/assets/transit/wind-hat-full-09dd58c3a0330e.glb.gz",
+      "bytes": 1452420
+    },
+    {
+      "url": "/assets/transit/wind-hat-mobile-e425918badd660.glb.gz",
+      "bytes": 1553978
+    },
+    {
+      "url": "/assets/transit/wind-vane-full-79fe2d7d00564b.glb.gz",
+      "bytes": 1235456
+    },
+    {
+      "url": "/assets/transit/wind-vane-mobile-fb76cfc16ab767.glb.gz",
+      "bytes": 755963
+    },
+    {
+      "url": "/assets/transit/winter-bench-full-07b049eb02a09a.glb.gz",
+      "bytes": 3316034
+    },
+    {
+      "url": "/assets/transit/winter-bench-mobile-65a43a813af1ab.glb.gz",
+      "bytes": 1074702
+    },
+    {
+      "url": "/assets/transit/winter-lamp-full-62dcd679a00200.glb.gz",
+      "bytes": 3321508
+    },
+    {
+      "url": "/assets/transit/winter-lamp-mobile-ff57678dcfc684.glb.gz",
+      "bytes": 978971
+    },
+    {
+      "url": "/assets/transit/winter-manor-5c1b579097cb-full-8f279e1a9ff783.glb.gz",
+      "bytes": 430214
+    },
+    {
+      "url": "/assets/transit/winter-manor-5c1b579097cb-mobile-8f279e1a9ff783.glb.gz",
+      "bytes": 430214
+    },
+    {
+      "url": "/assets/transit/winter-pavilion-51627dda4865e2-full-337aa3350135ad.glb.gz",
+      "bytes": 2997719
+    },
+    {
+      "url": "/assets/transit/winter-pavilion-c7e87ebc8aff-full-fda0e4cde38f98.glb.gz",
+      "bytes": 279810
+    },
+    {
+      "url": "/assets/transit/winter-pavilion-c7e87ebc8aff-mobile-fda0e4cde38f98.glb.gz",
+      "bytes": 279810
+    },
+    {
+      "url": "/assets/transit/winter-pavilion-full-8babc7de239a3e.glb.gz",
+      "bytes": 8042281
+    },
+    {
+      "url": "/assets/transit/winter-pavilion-mobile-b48257184d829e.glb.gz",
+      "bytes": 1163983
+    },
+    {
+      "url": "/assets/transit/winter-planter-full-5b49b582c3d630.glb.gz",
+      "bytes": 4606007
+    },
+    {
+      "url": "/assets/transit/winter-planter-mobile-b4939344b9ecbe.glb.gz",
+      "bytes": 1500745
+    },
+    {
+      "url": "/assets/transit/winter-riverbank-lod-4d1fb6e93df7cb-full-54b359735f8289.glb.gz",
+      "bytes": 1632656
+    },
+    {
+      "url": "/assets/transit/winter-riverbank-lod-full-490c12f01faa8c.glb.gz",
+      "bytes": 4985454
+    },
+    {
+      "url": "/assets/transit/winter-riverbank-lod-mobile-b2f109fcac1bcb.glb.gz",
+      "bytes": 493701
+    },
+    {
+      "url": "/assets/transit/winter-tree-4bf17d6fc9e0-full-95e68e088be95c.glb.gz",
+      "bytes": 296522
+    },
+    {
+      "url": "/assets/transit/winter-tree-4bf17d6fc9e0-mobile-95e68e088be95c.glb.gz",
+      "bytes": 296522
+    },
+    {
+      "url": "/assets/transit/winter-wayfinder-full-3c72a33d0e3113.glb.gz",
+      "bytes": 3187967
+    },
+    {
+      "url": "/assets/transit/winter-wayfinder-mobile-7868e5eb509110.glb.gz",
+      "bytes": 953678
+    },
+    {
+      "url": "/assets/transit/wish-mailbox-full-ce5d3195d99aeb.glb.gz",
+      "bytes": 3340030
+    },
+    {
+      "url": "/assets/transit/wish-mailbox-mobile-11e3d202319654.glb.gz",
+      "bytes": 910768
+    },
+    {
+      "url": "/assets/transit/wish-postoffice-full-5c7633f0be4126.glb.gz",
+      "bytes": 4222458
+    },
+    {
+      "url": "/assets/transit/wish-postoffice-mobile-e759301da1937e.glb.gz",
+      "bytes": 1350078
+    },
+    {
+      "url": "/assets/transit/wisteria-garden-cluster-1ee818bb2b5e-full-d74c7f625220dd.glb.gz",
+      "bytes": 249837
+    },
+    {
+      "url": "/assets/transit/wisteria-garden-cluster-1ee818bb2b5e-mobile-d74c7f625220dd.glb.gz",
+      "bytes": 249837
+    },
+    {
+      "url": "/assets/transit/wisteria-garden-cluster-38f9c7ea01012e-full-ad1c7e485e43c6.glb.gz",
+      "bytes": 3179760
+    },
+    {
+      "url": "/assets/transit/wisteria-garden-cluster-full-9eb7ca1e5a3d7a.glb.gz",
+      "bytes": 7590918
+    },
+    {
+      "url": "/assets/transit/wisteria-garden-cluster-mobile-0c9ffaf11a6d8b.glb.gz",
+      "bytes": 1106498
+    },
+    {
+      "url": "/ui/auth/laughing-naifrog.webp",
+      "bytes": 60382
+    },
+    {
+      "url": "/ui/collection/cheerer.png",
+      "bytes": 135195
+    },
+    {
+      "url": "/ui/collection/chef.png",
+      "bytes": 176490
+    },
+    {
+      "url": "/ui/collection/laugher.png",
+      "bytes": 109005
+    },
+    {
+      "url": "/ui/collection/photographer.png",
+      "bytes": 142649
+    },
+    {
+      "url": "/ui/collection/reader.png",
+      "bytes": 696438
+    },
+    {
+      "url": "/ui/collection/santa.png",
+      "bytes": 221348
+    },
+    {
+      "url": "/ui/collection/thinker.png",
+      "bytes": 137037
+    },
+    {
+      "url": "/ui/collection/traveler.png",
+      "bytes": 193318
+    },
+    {
+      "url": "/ui/collection/welcome.png",
+      "bytes": 535628
+    },
+    {
+      "url": "/ui/festival/cheerer.png",
+      "bytes": 135195
+    },
+    {
+      "url": "/ui/festival/laugher.png",
+      "bytes": 140982
+    },
+    {
+      "url": "/ui/festival/thinker.png",
+      "bytes": 137037
+    }
+  ]
+}

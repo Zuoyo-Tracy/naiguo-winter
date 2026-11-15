@@ -1,0 +1,23 @@
+.tour-controls{position:fixed;bottom:26px;left:50%;transform:translateX(-50%);z-index:45;max-width:calc(100vw - 28px);padding:8px 12px 7px;border:1px solid #cfbc91;border-radius:13px;background:#302d34e8;color:#f2e7cb;box-shadow:0 4px 20px #0c132533;font:13px system-ui;text-align:center}.tour-controls[hidden],.tour-drive[hidden]{display:none}.tour-modes{display:flex;gap:5px;justify-content:center;margin-bottom:6px}.tour-controls button,.tour-controls select{font:inherit;border:1px solid #887b62;border-radius:7px;padding:7px 12px;background:#4c4340;color:#f7ecd3;cursor:pointer}.tour-modes button{padding:4px 20px;background:transparent}.tour-modes button[aria-pressed=true]{background:#e0d0a5;color:#3b352c}.tour-drive{display:flex;gap:6px;align-items:center}.tour-drive select{max-width:160px}.tour-drive #tour-go{background:#abc7b9;color:#243a31;min-width:68px;font-weight:650}.tour-drive #tour-stop{background:#6b5050}.tour-controls small{display:block;margin-top:5px;color:#d7cdb6;font-size:11px;max-width:360px}.tour-controls button:disabled{opacity:.55;cursor:wait}@media(max-width:700px){.tour-controls{bottom:93px;padding:6px 8px}.tour-drive select{max-width:125px}.tour-controls button{padding:7px 9px}.tour-controls small{font-size:10px}}body.amusement .tour-controls,body.riding .tour-controls,body.haunted .tour-controls{display:none}
+.tour-controls .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+body:has(.tour-controls:not([hidden])) #naifrog-prompt,body:has(.tour-controls:not([hidden])) #festival-prompt{bottom:142px}
+@media(max-width:800px),(pointer:coarse){body:has(.tour-controls:not([hidden])) #naifrog-prompt,body:has(.tour-controls:not([hidden])) #festival-prompt{bottom:230px}}
+
+/* In portrait the cruise strip sits below both thumb pads. The contextual
+   ride button or speed readout uses the free space between the two hands. */
+@media(pointer:coarse) and (max-width:600px){
+ .tour-controls{bottom:max(8px,env(safe-area-inset-bottom));width:max-content;box-sizing:border-box}
+ body:has(.tour-controls:not([hidden])) #touch-controls{bottom:calc(122px + env(safe-area-inset-bottom))}
+ body.park-nearby:has(.tour-controls:not([hidden])) #park-panel{bottom:calc(144px + env(safe-area-inset-bottom))}
+ body:has(.tour-controls:not([hidden]))>footer{
+  bottom:calc(145px + env(safe-area-inset-bottom));left:50%;right:auto;transform:translateX(-50%);
+ }
+ body:has(.tour-controls:not([hidden]))>footer .flow,
+ body:has(.tour-controls:not([hidden]))>footer #boost-status{display:none}
+}
+@media(pointer:coarse) and (max-width:379px){
+ body.park-nearby:has(.tour-controls:not([hidden])) #park-panel{bottom:calc(230px + env(safe-area-inset-bottom))}
+}
+@media(pointer:coarse) and (min-width:601px){
+ body.park-nearby .tour-controls{bottom:max(78px,calc(70px + env(safe-area-inset-bottom)))}
+}

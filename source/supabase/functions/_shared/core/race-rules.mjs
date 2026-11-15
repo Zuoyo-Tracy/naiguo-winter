@@ -1,0 +1,13 @@
+const encoder=new TextEncoder();
+const hex=bytes=>Array.from(bytes,v=>v.toString(16).padStart(2,'0')).join('');
+const bytes=string=>Uint8Array.from(string.match(/../g)||[],v=>parseInt(v,16));
+export const randomToken=()=>hex(crypto.getRandomValues(new Uint8Array(32)));
+export const digest=async value=>hex(new Uint8Array(await crypto.subtle.digest('SHA-256',encoder.encode(value))));
+export async function passwordHash(password,salt){const key=await crypto.subtle.importKey('raw',encoder.encode(password),'PBKDF2',false,['deriveBits']);return hex(new Uint8Array(await crypto.subtle.deriveBits({name:'PBKDF2',hash:'SHA-256',salt:bytes(salt),iterations:100000},key,256)));}
+export function equalHash(a,b){let difference=a.length^b.length;for(let i=0;i<a.length;i++)difference|=a.charCodeAt(i)^(b.charCodeAt(i)||0);return difference===0;}
+export const stationDistances=[10,2160,3980];
+export function routeInfo(from,to){if(!Number.isInteger(from)||!Number.isInteger(to)||!stationDistances[from]||!stationDistances[to]||from===to)throw new ApiError(400,'请选择两个不同的有效驿站');return {from,to,distance:Math.abs(stationDistances[to]-stationDistances[from])};}
+export class ApiError extends Error{constructor(status,message){super(message);this.status=status;}}
+export function validateCredentials(data,register=false){const name=typeof data.name==='string'?data.name.trim().toLowerCase():'';if(!/^[a-z0-9_]{3,24}$/.test(name)||typeof data.password!=='string'||data.password.length<8||data.password.length>128)throw new ApiError(400,'账号需为 3–24 位字母、数字或下划线；密码需为 8–128 位');if(register&&data.password!==data.confirm)throw new ApiError(400,'两次输入的密码不一致');return {name,password:data.password};}
+export function validateFinish(data,run,now){if(!['finished','failed','abandoned'].includes(data.status))throw new ApiError(400,'无效的比赛状态');if(!Number.isSafeInteger(data.elapsedMs)||data.elapsedMs<0||data.elapsedMs>86400000||data.elapsedMs>now-run.started_at+5000)throw new ApiError(400,'计时数据异常，请重新开始挑战');if(now-run.started_at>86400000)throw new ApiError(410,'这场挑战已超过 24 小时，请重新开始');if(data.status==='finished'&&data.elapsedMs<run.route_distance/1000*1000)throw new ApiError(400,'用时过短，无法列入排行榜');if(typeof data.distance!=='number'||!Number.isFinite(data.distance)||data.distance<0||data.distance>100000||!Number.isSafeInteger(data.hits)||data.hits<0||data.hits>10000)throw new ApiError(400,'里程或碰撞记录无效');return {...data,distance:Math.round(data.distance)};}
+export function publicRun(row){return {id:row.id,name:row.user_name,from:row.from_station,to:row.to_station,status:row.status,elapsedMs:row.elapsed_ms,distance:row.distance,hits:row.hits,createdAt:new Date(row.finished_at??row.started_at).toISOString()};}

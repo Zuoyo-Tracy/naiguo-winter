@@ -1,0 +1,20 @@
+[
+ {"source":"european-manor","faces":7000},
+ {"source":"russian-house","faces":5500},
+ {"source":"park/park-fence","faces":800},
+ {"source":"park/park-lamp","faces":1200},
+ {"source":"park/park-bench","faces":1200},
+ {"source":"park/park-planter","faces":1600},
+ {"source":"park/park-ticket","faces":2500},
+ {"source":"park/park-entry","faces":3000},
+ {"source":"park/park-garden-arch","faces":2000},
+ {"source":"park/park-prizes","faces":1800},
+ {"source":"park/park-candy","faces":2500},
+ {"source":"festival/snowdrop","faces":1200},
+ {"source":"festival/star-lantern","faces":1600},
+ {"source":"festival/bunting","faces":1400},
+ {"source":"frost-snowball-lod","faces":1600},
+ {"source":"gypsophila-clump-lod","faces":1000},
+ {"source":"ornate-christmas-tree-lod","faces":1600},
+ {"source":"ribbon-balloons-lod","faces":2200}
+]

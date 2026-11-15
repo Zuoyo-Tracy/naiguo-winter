@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-15",
+  "node": "24.16.0",
+  "gameUnitTests": {
+    "passed": 256,
+    "failed": 0
+  },
+  "backendLogicTests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "backendCoreSynchronized": true,
+  "build": "npm run build:github in source copy; passed",
+  "pdf": {
+    "pages": 16,
+    "images": 23,
+    "links": [
+      "https://zuoyo-tracy.github.io/naiguo-winter/?scene=grand-palace&trial=1",
+      "https://github.com/Zuoyo-Tracy/naiguo-winter/tree/main/source",
+      "https://zuoyo-tracy.github.io/naiguo-winter/review/Winter-in-Milktopia-Source.zip",
+      "https://zuoyo-tracy.github.io/naiguo-winter/review/Winter-in-Milktopia-Project-Report.pdf",
+      "https://www.modelscope.cn/studios/milkgoose/Winter_in_Milktopia"
+    ],
+    "bytes": 5076816,
+    "sha256": "552ea3bc6a36d6679dd9a6751542bf2ee648ff9b3796262707219a79b535b0d4"
+  },
+  "source": {
+    "files": 298,
+    "bytes": 4943601,
+    "sha256": "1509f572e6b9266e964c3031bc7fcf0794cdc4d0a7df3daccedf3905ce45711a"
+  },
+  "notes": [
+    "Source package excludes credentials, account databases, private reference PDFs and authoring Blender files.",
+    "Source ZIP includes two asset test fixtures; other runtime assets can be copied from this repository or downloaded with prepare-assets.mjs.",
+    "Screenshots are historical development captures, not all from a single release."
+  ]
+}

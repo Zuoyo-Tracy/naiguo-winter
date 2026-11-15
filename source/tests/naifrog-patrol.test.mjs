@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {npcPlacements} from '../src/naifrog-layout.js';
+import {createPatrol,advancePatrol,patrolPointSafe} from '../src/naifrog-patrol.js';
+test('residents patrol supported clear ground and stop when the player approaches',()=>{const people=npcPlacements.map(n=>({...n,radius:1.1}));for(const n of people)n.patrol=createPatrol(n);assert.ok(people.filter(n=>n.patrol).length>=4);let moving=0;for(const n of people){if(!n.patrol)continue;const home={x:n.x,z:n.z};for(let i=0;i<400;i++){advancePatrol(n,.05,{x:0,z:-500},people);assert.ok(patrolPointSafe(n,n.x,n.z),n.id);assert.ok(Math.hypot(n.x-home.x,n.z-home.z)<=1.81);}const old={x:n.x,z:n.z};assert.equal(advancePatrol(n,.05,{x:n.x,z:n.z+5},people),false);assert.equal(n.x,old.x);assert.equal(n.z,old.z);moving++;}assert.ok(moving>=4);});

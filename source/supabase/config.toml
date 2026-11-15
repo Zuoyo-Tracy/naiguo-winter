@@ -1,0 +1,8 @@
+# Local CLI identity only; this does not create or link a hosted project.
+project_id = "naiguo-winter-racing"
+
+[functions.race-api]
+enabled = true
+# The API uses its own opaque Bearer sessions, not Supabase Auth JWTs.
+verify_jwt = false
+entrypoint = "./functions/race-api/index.ts"

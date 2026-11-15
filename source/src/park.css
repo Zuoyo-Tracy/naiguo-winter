@@ -1,0 +1,40 @@
+#park-panel{position:fixed;bottom:150px;left:28px;width:320px;box-sizing:border-box;z-index:80;background:#292739ed;color:#f9eddd;border:1px solid #c5a878;border-radius:13px;padding:20px;box-shadow:0 12px 35px #0005}#park-panel[hidden]{display:none}#park-panel strong{font-size:20px;color:#f2d6ac}#park-panel p{font-size:14px;line-height:1.7}#park-panel button{display:block;width:100%;margin:8px 0;font-size:14px;padding:10px}#park-panel button[hidden]{display:none}#park-live{color:#e8cf9d;min-height:24px}#park-map{margin-top:20px;border-top:1px solid #ad947c;padding-top:12px}#park-map>div{display:flex;flex-wrap:wrap;gap:8px}#park-map button{font-size:14px;padding:10px 12px}#park-map p{font-size:13px}body.amusement #touch-controls [data-control="Space"],body.amusement #touch-controls [data-control="Shift"]{display:none}body.amusement #damage,body.amusement #boost-status{visibility:hidden}@media(max-width:600px){#park-panel{left:12px;bottom:130px;width:280px;padding:14px}}
+
+/* Ride controls occupy one small bottom row; the view stays unobstructed. */
+#park-panel{left:50%;bottom:24px;transform:translateX(-50%);width:max-content;max-width:calc(100vw - 24px);padding:0;border:0;border-radius:0;background:none;box-shadow:none;display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap}
+#park-panel strong,#park-panel p{display:none}
+#park-panel button{display:inline-flex;align-items:center;justify-content:center;width:auto;margin:0;padding:10px 16px;min-height:44px;font-size:13px;line-height:1.4;border:1px solid #d5c4df80;border-radius:9px;background:#30283ddb;box-shadow:0 3px 12px #17122644;backdrop-filter:blur(6px)}
+#park-panel button:hover{background:#51405de8}
+#park-panel button:disabled{cursor:default}
+#park-panel[data-kind="bumper"] #park-live{display:block;margin:0;padding:8px 12px;min-height:0;border-radius:9px;background:#30283ddb;color:#fff0cb;font-size:13px}
+body.amusement>header,body.amusement>.telemetry,body.amusement>footer,body.amusement:not(.bumper-playing) #touch-controls{display:none}
+body.amusement #touch-controls [data-control="KeyE"]{display:none}
+@media(max-width:600px){#park-panel{bottom:max(18px,env(safe-area-inset-bottom));gap:6px}#park-panel button{padding:10px 13px;font-size:12px}#park-panel[data-kind="bumper"] #park-live{flex-basis:100%;text-align:center;font-size:12px}}
+
+@media(max-width:600px){body.park-nearby>footer{display:none}}
+
+/* Keep numbered game targets usable with a thumb, including a narrow 320 px phone. */
+#park-panel #carnival-targets{flex-wrap:wrap;justify-content:center;max-width:100%}
+#park-panel #carnival-targets button{min-width:44px;min-height:44px;padding:8px}
+
+#carnival-controls[hidden]{display:none}#carnival-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center}#carnival-controls label{font-size:12px;padding:9px;background:#30283ddb;border-radius:8px;color:#f7e6cc}#carnival-aim{width:110px;accent-color:#c8a76a}#carnival-power{width:75px;height:15px}#carnival-targets{display:flex;gap:4px}#carnival-targets button{min-width:33px;padding:8px}#park-panel.carnival-playing #park-live{display:block;flex-basis:100%;text-align:center;margin:0;padding:7px 12px;background:#30283ddb;color:#ffedc8;font-size:13px;border-radius:8px}#park-panel.carnival-playing{max-width:min(920px,96vw)}#carnival-controls [hidden]{display:none!important}@media(max-width:600px){#carnival-controls{gap:5px}#park-panel.carnival-playing #park-live{font-size:11px}}
+
+#ski-controls{display:flex;gap:6px;justify-content:center;flex-wrap:wrap}#ski-controls[hidden]{display:none}#park-panel[data-kind="ski"]{max-width:min(820px,96vw)}#park-panel[data-kind="ski"] #park-live{display:block;flex-basis:100%;text-align:center;margin:0;min-height:0;padding:8px 12px;background:#253b48eb;color:#fff0ce;font-size:13px;border-radius:9px}#ski-controls button{touch-action:none;user-select:none}#ski-start{background:#365e58!important}#ski-brake{background:#794958!important}@media(max-width:600px){#park-panel[data-kind="ski"] #park-live{font-size:11px}#park-panel[data-kind="ski"] button{padding:9px 11px}}
+
+#fishing-controls{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}#fishing-controls[hidden]{display:none}
+#fishing-steps{display:flex;gap:9px;padding:9px 12px;background:#213e45e8;border:1px solid #cbb38066;border-radius:9px;color:#b9c9c6;font-size:12px}
+#fishing-steps .current{color:#ffdd91;font-weight:700}
+#park-panel #fishing-action,#park-panel #fishing-again{min-width:130px;background:#365c58;color:#fff3cc;border-color:#d2bb80}
+#park-panel #fishing-action:disabled{background:#34484dcc;color:#bac7c4;border-color:#a8bfb755;opacity:1}
+#park-panel #fishing-controls[data-phase="bite"] #fishing-action{background:#edbd68;color:#352a19;font-weight:800;box-shadow:0 0 0 4px #ffd88333}
+#park-panel[data-kind="ducks"]{max-width:min(740px,96vw)}#park-panel[data-kind="ducks"] #park-live{background:#213e45ed;font-size:14px;line-height:1.6;padding:9px 14px;color:#fff1d2}
+@media(max-width:600px){#fishing-controls{gap:7px}#fishing-steps{font-size:11px;gap:6px;padding:7px 10px}#park-panel[data-kind="ducks"] #park-live{font-size:12px}#park-panel #fishing-action{min-width:115px}}
+
+#mushroom-controls{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px}#mushroom-controls[hidden],#mushroom-controls [hidden]{display:none!important}
+#mushroom-legend{color:#ffe7bb;background:#45302ce8;border:1px solid #c8a87370;border-radius:8px;padding:8px 13px;font-size:12px}
+#mushroom-stats{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px;padding:9px 14px;background:#304b40ef;border:1px solid #a8bd9666;border-radius:8px;font-size:13px;color:#efead7}
+#mushroom-score{font-size:18px!important;color:#ffe3a3!important;display:inline!important}#mushroom-combo{color:#f1c8e1}#mushroom-king{color:#ffdc84}
+#mushroom-controls[data-fever="true"] #mushroom-stats{background:#745131ed;border-color:#f3c879;box-shadow:0 0 14px #ffd67933}
+#park-panel #mushroom-start,#park-panel #mushroom-again{background:#426451;border-color:#e1bd7b;color:#fff0cc;min-width:110px}
+#park-panel[data-kind="mushrooms"]{max-width:min(830px,96vw)}#park-panel[data-kind="mushrooms"] #park-live{background:#43342ee8;font-size:13px;padding:8px 12px;line-height:1.6}
+@media(max-width:600px){#mushroom-stats{gap:8px;padding:7px 10px;font-size:12px}#mushroom-legend{font-size:11px;padding:6px 10px}#mushroom-score{font-size:16px!important}#park-panel[data-kind="mushrooms"] #park-live{font-size:11px}}

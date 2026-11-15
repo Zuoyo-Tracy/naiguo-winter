@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {canUseSkin} from '../src/skins.js';
+test('kangaroo unlocks at the second station, with original skin always available',()=>{assert.equal(canUseSkin('kangaroo',0),false);assert.equal(canUseSkin('kangaroo',1),true);assert.equal(canUseSkin('kangaroo',2),true);assert.equal(canUseSkin('tricycle',0),true);assert.equal(canUseSkin('invalid',2),false);});

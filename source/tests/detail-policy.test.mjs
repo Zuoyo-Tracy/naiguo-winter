@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {distantDetail} from '../src/detail-policy.js';
+test('detail changes stay stable around a boundary',()=>{assert.equal(distantDetail(600,100,'balanced',false),false);assert.equal(distantDetail(600,100,'balanced',true),true);assert.equal(distantDetail(700,100,'balanced',false),true);assert.equal(distantDetail(500,100,'balanced',true),false);});
+test('close props retain shape and quality controls distant detail',()=>{assert.equal(distantDetail(30,1,'low'),false);assert.equal(distantDetail(150,30,'low'),true);assert.equal(distantDetail(150,30,'high'),false);assert.equal(distantDetail(0,200,'low',true),false);});

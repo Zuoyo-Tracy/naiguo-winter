@@ -1,0 +1,20 @@
+import {peachGatePlacement,peachSceneryClearOfPark} from './peach-layout.js';
+import {bridgeCrossingAt} from './bridge-scenery.js';
+import * as THREE from 'three';import {GameAssetLoader as GLTFLoader} from './asset-loader.js';import {checkpointDistances} from './rules.js';import {sampleAt,modules} from './track.js';import {railClearanceSamples} from './train-rules.js';
+function fit(source,w,h,d){const root=new THREE.Group();root.add(source);source.updateMatrixWorld(true);const b=new THREE.Box3().setFromObject(source),s=b.getSize(new THREE.Vector3()),c=b.getCenter(new THREE.Vector3());source.position.sub(new THREE.Vector3(c.x,b.min.y,c.z));root.scale.set(w/s.x,h/s.y,d/s.z);return root;}
+export async function loadPeachGates(scene){
+ const loader=new GLTFLoader(),[c,t]=await Promise.all(['peach-cave-lod','peach-tree-lod'].map(async id=>(await loader.loadAsync('/assets/'+id+'.glb')).scene));
+ const cb=new THREE.Box3().setFromObject(c);if(cb.max.z-cb.min.z>cb.max.x-cb.min.x){c.rotation.y=Math.PI/2;c.updateMatrixWorld(true);}const cave=fit(c,44,24,12),tree=fit(t,12,13,11);const reports=[],placed=[],bridgeCheckpoints=[],bridges=modules.filter(m=>m.id==='english-stone-bridge');let trees=0;const omitted=[],treePositions=[];
+ // Check the actual generated tunnel before placing any instance.
+ cave.updateMatrixWorld(true);
+ // Widen the passage without making the entire rock formation excessively large.
+ cave.traverse(o=>{if(!o.isMesh)return;o.geometry=o.geometry.clone();const a=o.geometry.attributes.position,v=new THREE.Vector3();for(let i=0;i<a.count;i++){v.fromBufferAttribute(a,i);o.localToWorld(v);const x=Math.abs(v.x);v.x=Math.sign(v.x)*(x<12?x*1.5:18+(x-12)*.7);o.worldToLocal(v);a.setXYZ(i,v.x,v.y,v.z);}a.needsUpdate=true;o.geometry.computeVertexNormals();o.geometry.computeBoundingSphere();});
+ const ray=new THREE.Raycaster(),meshes=[];cave.traverse(o=>{if(o.isMesh){o.material.side=THREE.DoubleSide;meshes.push(o);}});
+ const blocked=[];for(const x of [-11,-8,-4,0,4,8,11])for(const y of [1,3,5]){ray.set(new THREE.Vector3(x,y,-10),new THREE.Vector3(0,0,1));ray.far=20;if(ray.intersectObjects(meshes,false).length)blocked.push({x,y});}
+ if(blocked.length)throw Error('桃源洞口需要校准通行净空 '+JSON.stringify(blocked));
+ for(const [i,s]of checkpointDistances.entries()){const p=peachGatePlacement(s);if(!p){omitted.push({checkpoint:i+1,reason:'park access clearance'});continue;}const bridge=bridgeCrossingAt(p.x,p.y,p.z,bridges);if(bridge){bridgeCheckpoints.push({checkpoint:i+1,position:[p.x,p.y,p.z]});continue;}const root=cave.clone(true);root.name='Lux3D Peach Blossom cave checkpoint';root.position.set(p.x,p.y-.15,p.z);root.rotation.y=p.yaw;scene.add(root);root.updateMatrixWorld(true);placed.push(root);reports.push({checkpoint:i+1,position:[p.x,p.y,p.z],clearWidth:22,clearHeight:5,shift:p.shift,checkpointStation:s,visualStation:p.station});
+ for(const side of [-1,1]){const x=p.x+Math.cos(p.yaw)*32*side,z=p.z-Math.sin(p.yaw)*40*side;if(!peachSceneryClearOfPark({x,z,y:p.y},9))continue;if(railClearanceSamples.some(r=>Math.hypot(r.x-x,r.z-z)<13&&Math.abs(r.y-p.y)<18))continue;const g=tree.clone(true);g.name='Lux3D Peach Blossom tree';g.userData.terrainSupport=true;g.position.set(x,p.y,z);g.rotation.y=i*.7+side;scene.add(g);const mound=new THREE.Mesh(new THREE.SphereGeometry(1,16,8),new THREE.MeshStandardMaterial({color:0x9a9b8e,roughness:1}));mound.scale.set(7,1.6,6);mound.position.set(x,p.y-1.5,z);scene.add(mound);treePositions.push({x,y:p.y,z});trees++;}}
+ scene.traverse(o=>{if(o.name==='Checkpoint turquoise arch')o.visible=false;});window.__peachReports={caves:reports,bridgeCheckpoints,trees,treePositions,omitted,clearanceBlocked:blocked};return {reports,blocked(ox,oz,x,z,y){const dx=x-ox,dz=z-oz,len=Math.hypot(dx,dz);if(len<.00001)return false;const direction=new THREE.Vector3(dx/len,0,dz/len);for(const root of placed){if(Math.hypot(root.position.x-x,root.position.z-z)>42)continue;const r=new THREE.Raycaster(new THREE.Vector3(ox,y+1,oz),direction,0,len+.9);if(r.intersectObject(root,true).length)return true;}return false;}};
+}
+
+

@@ -1,0 +1,168 @@
+{
+  "title": "奶国之冬：奶家人上车！",
+  "date": "2026-11-15",
+  "pages": 16,
+  "images": [
+    {
+      "page": 1,
+      "file": "reports/winter-final-wisteria.jpg",
+      "caption": "封面｜冬日紫藤长廊效果。游戏实机截图，保留开发版本界面。",
+      "sha256": "f086eace8d768ae25231a08452c2322413ffbeef9072f6f2becb803c7c04794a",
+      "publicFile": "screenshots/winter-final-wisteria.jpg"
+    },
+    {
+      "page": 2,
+      "file": "reports/treasure-map-desktop.jpg",
+      "caption": "图 1｜藏宝图式导航的阶段版本：把道路、驿站、设施和居民组织到同一张地图。截图内旧数量不代表当前总量。",
+      "sha256": "0a92dc66897677ce79cbd344a6824b9a355ac5460ac2afa5c21f8de6e8c8d806",
+      "publicFile": "screenshots/treasure-map-desktop.jpg"
+    },
+    {
+      "page": 4,
+      "file": "reports/final-delivery-preview.jpg",
+      "caption": "图 2｜本地资产交付预览中的花车与雪国护柱。用于检查生成结果及下载完成状态；此图不是游戏最终视角。",
+      "sha256": "1b858d2f0d67f3983ed620bc65690709bfd6545f1f02f8ff51a2820f079febe8",
+      "publicFile": "screenshots/final-delivery-preview.jpg"
+    },
+    {
+      "page": 5,
+      "file": "reports/unified-teacup-raw.jpg",
+      "caption": "图 3a｜茶杯单体资产原始预览：外壳、花纹、座椅与转盘结构。",
+      "sha256": "0d1d3ee52444e0defb715b51f3d7a182753f985393bcc9ab58ca397452f82951",
+      "publicFile": "screenshots/unified-teacup-raw.jpg"
+    },
+    {
+      "page": 5,
+      "file": "reports/passenger-teacups-game.jpg",
+      "caption": "图 3b｜进入游戏后的乘坐效果：加入角色、座位适配、旋转场景与退出交互。",
+      "sha256": "e7d5fbfece9f155d74419e9afb9729af095dc992ad346fb314699ebf78ae9660",
+      "publicFile": "screenshots/passenger-teacups-game.jpg"
+    },
+    {
+      "page": 6,
+      "file": "reports/winter-before-sky.jpg",
+      "caption": "图 4a｜早期布景：天空网格存在感过强，长廊与建筑叠置，空间层次较杂。",
+      "sha256": "26a95e2da095c80527c218ab8e0c64c472f5a787b85da4226f48aa67eaa7a654",
+      "publicFile": "screenshots/winter-before-sky.jpg"
+    },
+    {
+      "page": 6,
+      "file": "reports/winter-final-skyline.jpg",
+      "caption": "图 4b｜后续布景：移除顶层网格，以冬日亭阁、玻璃建筑、长廊及雪松组织天际线。",
+      "sha256": "66b8054f6105cde014306f9eb1f86d2b80fe97f8af54733687037a5b8a35baa8",
+      "publicFile": "screenshots/winter-final-skyline.jpg"
+    },
+    {
+      "page": 7,
+      "file": "reports/teacup-seat-current.jpg",
+      "caption": "图 5a｜调整前的乘坐阶段：角色保留骑乘姿态，身体与中心转盘关系不自然。",
+      "sha256": "cb0e206714c51d8d43245562d5b6c489cae88fef4c2eae0cef9ad5dedaa6f391",
+      "publicFile": "screenshots/teacup-seat-current.jpg"
+    },
+    {
+      "page": 7,
+      "file": "reports/passenger-context-poses.jpg",
+      "caption": "图 5b｜情境姿势预览：驾驶、摩天轮、侧向坐姿与热气球姿势分别适配。",
+      "sha256": "3d76ea233c644dbda2d3ad525e06780e4f9a1c06f3b6904e5e171f8f259d0edf",
+      "publicFile": "screenshots/passenger-context-poses.jpg"
+    },
+    {
+      "page": 8,
+      "file": "reports/unified-ride-carousel.jpg",
+      "caption": "图 6｜旋转木马的场景与乘坐效果。",
+      "sha256": "e9de016c617a10ed2c1c8f0d98f6dad4d0762e1ae0702a97231b6aeee2c38674",
+      "publicFile": "screenshots/unified-ride-carousel.jpg"
+    },
+    {
+      "page": 8,
+      "file": "reports/unified-ride-ferris.jpg",
+      "caption": "图 7｜摩天轮体验，兼作普通赛道终点附近的地标。",
+      "sha256": "ea9d068dd490075f8d157d3e8b086a883396347262f943b44b7ad6d6cab277f0",
+      "publicFile": "screenshots/unified-ride-ferris.jpg"
+    },
+    {
+      "page": 9,
+      "file": "reports/final-haunt-scene-3.jpg",
+      "caption": "图 8｜中式迷庭中的奶鼠与奶粉互动，剧情人物直接出现在前方路径。",
+      "sha256": "2847b4b97b9316fbeef684789ce0ddd7d60fd296147aad06286702bee90578c4",
+      "publicFile": "screenshots/final-haunt-scene-3.jpg"
+    },
+    {
+      "page": 9,
+      "file": "reports/mystery-ending.jpg",
+      "caption": "图 9｜解救剧情的结局与选择界面，保留开发验收截图。",
+      "sha256": "e695e506309718c7fbb32ea51c7f505d4e5391fac2048b9cf7579b105c85100c",
+      "publicFile": "screenshots/mystery-ending.jpg"
+    },
+    {
+      "page": 10,
+      "file": "reports/residents-unique.jpg",
+      "caption": "图 10｜居民身份差异化的图鉴阶段效果。",
+      "sha256": "cee5f553f35515b1ecc14f0197beb7fee91060490dd8e606887700c075ac09a4",
+      "publicFile": "screenshots/residents-unique.jpg"
+    },
+    {
+      "page": 10,
+      "file": "reports/residents-v35-moving-encounter.jpg",
+      "caption": "图 11｜移动居民的相遇与互动过程。",
+      "sha256": "709906c5ad9db6dba99fe43bb0579afbcb9d493786a60ba2d1174fd86d25ef09",
+      "publicFile": "screenshots/residents-v35-moving-encounter.jpg"
+    },
+    {
+      "page": 11,
+      "file": "reports/sky-terminal-front.jpg",
+      "caption": "图 12a｜摩天轮终点附近设置实体起飞台，先沿地面抵达入口。",
+      "sha256": "82d7b8808f0da6599b70469d573ad394703901fc2c93d1888c6ae4d35074dc78",
+      "publicFile": "screenshots/sky-terminal-front.jpg"
+    },
+    {
+      "page": 11,
+      "file": "reports/sky-departure-ascent.jpg",
+      "caption": "图 12b｜角色沿过渡航线连续升空，地面地标保持可见。",
+      "sha256": "1c01064e95c87aaf5fdf2a0a1c928e52714f6aa6804c6e9a481a3959435528a2",
+      "publicFile": "screenshots/sky-departure-ascent.jpg"
+    },
+    {
+      "page": 12,
+      "file": "reports/sky-departure-flight.jpg",
+      "caption": "图 13｜云层之上的奶使、风环、投递岛与下方陆地，形成上下连贯的世界。",
+      "sha256": "7a52a5c6bb53fc714e5cf51bf651a7601ace73cb275d4c0dcdcf082b807514c8",
+      "publicFile": "screenshots/sky-departure-flight.jpg"
+    },
+    {
+      "page": 12,
+      "file": "reports/sky-outing-0.jpg",
+      "caption": "图 14｜天空可选活动的实机验收画面。",
+      "sha256": "97f12c9e7f21d83c5b9989dc6f69fa8a54fb91febdc3ec9fda4a51328bf29c80",
+      "publicFile": "screenshots/sky-outing-0.jpg"
+    },
+    {
+      "page": 13,
+      "file": "reports/ski-lift-view.jpg",
+      "caption": "图 15｜滑雪上山过程改为可观看的连续扶梯行程，减少突然瞬移感。",
+      "sha256": "011fa71b4e8b727160d7a8d830764383db1beb7937c5c8176e228cf681eef7ee",
+      "publicFile": "screenshots/ski-lift-view.jpg"
+    },
+    {
+      "page": 13,
+      "file": "reports/fishing-reeling.jpg",
+      "caption": "图 16｜钓鱼操作阶段，以咬钩和收线反馈替代难以理解的编号选鸭。",
+      "sha256": "a6511a2ba50a110a0e3cdef16f14868f1f6234e8a74f130e7978e7cd2fb28c49",
+      "publicFile": "screenshots/fishing-reeling.jpg"
+    },
+    {
+      "page": 14,
+      "file": "reports/park-vehicle-front-clearance.jpg",
+      "caption": "图 17｜车辆与设施边缘的间距检查，防止入口附近穿模或卡住。",
+      "sha256": "dfedb3a577528f9b3df6c0f6fc1bf397b94fbea5a91675edf35234182dcb847c",
+      "publicFile": "screenshots/park-vehicle-front-clearance.jpg"
+    },
+    {
+      "page": 14,
+      "file": "reports/cabin-protected-walking.jpg",
+      "caption": "图 18｜列车内部走动与景物隔离效果检查。",
+      "sha256": "9825aa0cd90753b3dafab9d861d66ed7141100644c54a11fcc7fd7b605633d11",
+      "publicFile": "screenshots/cabin-protected-walking.jpg"
+    }
+  ]
+}

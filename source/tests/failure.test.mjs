@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {newRace,stepRace,obstacles} from '../src/rules.js';
+test('two independent impacts end run, held contact counts once',()=>{const s=newRace(),o=obstacles[0];Object.assign(s,{status:'running',x:o.x-5,z:o.z,yaw:Math.PI/2,speed:12});for(let i=0;i<120;i++)stepRace(s,{accelerate:true},1/120,i/120);assert.equal(s.hits,1);assert.equal(s.status,'running');s.x=o.x-10;stepRace(s,{},.01,2);s.x=o.x-5;s.speed=12;for(let i=0;i<120;i++)stepRace(s,{accelerate:true},1/120,2+i/120);assert.equal(s.status,'lost');assert.equal(s.hits,2);});
+test('off road ends run',()=>{const s=newRace();Object.assign(s,{status:'running',x:-260,z:10.9,yaw:0,speed:20});for(let i=0;i<60&&s.status==='running';i++)stepRace(s,{},1/60,1);assert.equal(s.reason,'冲出赛道');assert.equal(s.failure.kind,'fall');});
+

@@ -1,0 +1,9 @@
+.park-preferences{margin:16px 0;border-top:1px solid #b6a07b;padding-top:12px;color:#584b35;font-size:14px}.park-preferences summary{cursor:pointer;min-height:32px;line-height:32px;list-style-position:inside}.preferences-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 28px;padding:14px 0}.preferences-grid label{display:flex;flex-wrap:wrap;gap:7px;align-items:center;font-size:13px}.preferences-grid select{width:100%;background:#f0e4c8;border:1px solid #b39c74;border-radius:5px;color:#594c37;padding:8px;font:inherit}.preferences-grid input[type=range]{width:100%;accent-color:#607253}.preferences-grid input[type=checkbox]{accent-color:#607253;width:16px;height:16px}.preferences-grid .preference-check span{display:block;width:100%;font-size:12px;line-height:1.5;color:#8b7c63;padding-left:24px}.preferences-grid output{margin-left:auto;color:#7f6a48}.park-preferences p{font-size:12px!important;color:#877557!important;margin:2px 0}.comfortable-view.boosting:after,.comfortable-view.impact:after{display:none!important}.comfortable-view *, .comfortable-view *:before,.comfortable-view *:after{scroll-behavior:auto!important}
+@media(max-width:600px){.preferences-grid{grid-template-columns:1fr;gap:14px}}
+.park-visitor-guide{margin-top:14px;border-top:1px solid #aa8f6055;padding-top:12px;color:#544634}
+.park-visitor-guide summary{cursor:pointer;font-size:13px;font-weight:600}
+.park-visitor-guide p{color:#64533b;line-height:1.8}
+.visitor-guide-routes{display:flex;flex-wrap:wrap;gap:7px}
+.visitor-guide-routes button{color:#494736;background:#e4d4b2;border:1px solid #a28b63;font-size:12px;padding:8px 12px}
+.park-visitor-guide dl{display:grid;grid-template-columns:minmax(135px,1fr) 1fr;gap:8px 16px;font-size:12px;line-height:1.6}
+.park-visitor-guide dt,.park-visitor-guide dd{margin:0}

@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {peachGatePlacement,peachSceneryClearOfPark} from '../src/peach-layout.js';import {TRACK_LENGTH} from '../src/track.js';import {checkpointDistances} from '../src/rules.js';
+test('finish cave is moved off ferris and swing access bridges',()=>{const p=peachGatePlacement(TRACK_LENGTH);assert.ok(p);assert.ok(p.shift<0);assert.equal(peachSceneryClearOfPark(p,27),true);assert.equal(p.checkpointStation,TRACK_LENGTH);assert.equal(p.z,450);});
+test('all placed cave envelopes leave park approach corridors clear',()=>{for(const s of checkpointDistances){const p=peachGatePlacement(s);if(p)assert.ok(peachSceneryClearOfPark(p,27));}});
+test('trees cannot stand in ferris bridge or dock, but distant same-level scenery is allowed',()=>{assert.equal(peachSceneryClearOfPark({x:-350,z:468.333,y:14},9),false);assert.equal(peachSceneryClearOfPark({x:-460,z:670,y:32},9),false);assert.equal(peachSceneryClearOfPark({x:-600,z:450,y:12},9),true);});

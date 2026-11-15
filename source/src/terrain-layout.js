@@ -1,0 +1,3 @@
+import {projectTrack} from './track.js';
+export function valleyHeight(z){const h=[0,14,28,50,32,12],u=Math.max(0,Math.min(5,z/90)),i=Math.min(4,Math.floor(u));return h[i]+(h[i+1]-h[i])*(u-i)-24;}
+export function landscapeHeight(x,z,bridges,foundations=[]){const road=projectTrack(x,z),base=valleyHeight(z)+1.3*Math.sin(x*.017)*Math.cos(z*.025);let y=base+(Math.max(base,road.y-2.45)-base)*Math.max(0,Math.min(1,(34-road.distance)/20));for(const b of bridges){const dx=Math.abs(x-b.x),dz=Math.abs(z-b.z),cut=Math.max(0,Math.min(1,(63-dx)/13,(77-dz)/15));y=y*(1-cut)+(b.water-1.8)*cut;}for(const f of foundations){if(x>f.min[0]-3&&x<f.max[0]+3&&z>f.min[2]-3&&z<f.max[2]+3)y=Math.min(y,f.min[1]-.35);}return y;}

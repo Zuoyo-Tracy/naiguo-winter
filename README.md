@@ -1,9 +1,16 @@
-# 奶国之冬：奶家人集合！
+# 奶国之冬：奶家人上车！
 
-[点击进入网页游戏](https://zuoyo-tracy.github.io/naiguo-winter/?scene=grand-palace&trial=1)
+浏览器三维互动乐园 · Winter in Milktopia
 
-点击“免登录试玩全部节点”进入。WASD 驾驶，拖曳环视，M 打开藏宝图；可自动漫游、乘坐游乐设施、解救奶鼠、收集奶蛙图鉴。
+- [免登录试玩](https://zuoyo-tracy.github.io/naiguo-winter/?scene=grand-palace&trial=1)
+- [项目源码与本地运行说明](source/README.md)
+- [PDF 项目报告：16 页、23 张实际截图](https://zuoyo-tracy.github.io/naiguo-winter/review/Winter-in-Milktopia-Project-Report.pdf)
+- [源码 ZIP](https://zuoyo-tracy.github.io/naiguo-winter/review/Winter-in-Milktopia-Source.zip)
+- [本次交付验证](review/validation.json)
+- [无登录访问检查](review/access-check.json)
 
-此仓库托管浏览器试玩发布包，所有节点开放。进度保存在当前浏览器，账号注册服务不在 GitHub Pages 上运行。手机首次默认使用轻快画质，主路就绪后即可游览，其余区域继续加载。可在地图的游园偏好中切换均衡或精细画质。建议使用稳定网络。
+source/ 提供可读开发源码、测试与后端业务逻辑；根目录 index.html、assets/、ui/ 是线上运行文件。
 
-建模源文件、账号数据库、服务凭据与内部报告不包含在发布包中。
+Lux3D 参与场景和设施等三维资产的生成迭代，Three.js 承载游戏渲染与交互；部分角色由创作者提供 Blender 模型。报告区分开发过程与关键效果截图，包含已知限制与性能测量条件。
+
+公开资料不包含私人参考 PDF、原始 Blender 工程、账户数据库或服务密钥。第三方角色和美术素材的权利需按来源另行确认，程序依赖许可证见 THIRD_PARTY_NOTICES.txt。

@@ -1,0 +1,3 @@
+#region-toast[data-kind="encounter"]{font-size:18px;font-weight:600;line-height:1.65;white-space:pre-line;padding:14px 18px;width:350px}
+#region-toast[data-kind="encounter"]::before{content:"路过的小事";font-size:11px;letter-spacing:2px;margin-bottom:3px}
+@media(max-width:600px){#region-toast[data-kind="encounter"]{font-size:16px;width:310px;padding:12px 15px}}

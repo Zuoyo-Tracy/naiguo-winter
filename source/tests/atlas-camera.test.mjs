@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {clampAtlas,zoomAtlas} from '../src/atlas-camera.js';
+test('map panning never loses the paper outside its bounds',()=>{assert.deepEqual(clampAtlas({zoom:1,x:999,y:-400}),{zoom:1,x:0,y:0});assert.deepEqual(clampAtlas({zoom:2,x:999,y:-2}),{zoom:2,x:520,y:0});assert.equal(clampAtlas({zoom:9,x:10,y:10}).zoom,3);});
+test('zoom anchors the map location under the pointer',()=>{const before={zoom:1.5,x:100,y:70},u=.28,v=.62,after=zoomAtlas(before,2.1,u,v);assert.ok(Math.abs(before.x+u*1040/before.zoom-after.x-u*1040/after.zoom)<1e-8);assert.ok(Math.abs(before.y+v*840/before.zoom-after.y-v*840/after.zoom)<1e-8);assert.deepEqual(zoomAtlas(after,1),{zoom:1,x:0,y:0});});
